@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-12-P01 / CANDIDATE**
+**EMAH-ARCH-12 / ACCEPTED**
 
 ### EMAH-INV-FIN-001
 
@@ -52,4 +52,5 @@ establish financial finality.
 **ReserveDesignation != Execution Authority**
 
 Reserve designation SHALL NOT create execution authority.
+
 

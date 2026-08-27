@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-12-P01 / CANDIDATE**
+**EMAH-ARCH-12 / ACCEPTED**
 
 ### EMAH-INV-AUTH-001
 
@@ -53,4 +53,5 @@ No evidence state SHALL independently create execution authority.
 **Obligation != Authority**
 
 Existence of an obligation SHALL NOT create authority to satisfy it.
+
 

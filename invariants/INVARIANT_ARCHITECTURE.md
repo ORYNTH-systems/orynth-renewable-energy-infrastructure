@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-12-P01 / CANDIDATE**
+**EMAH-ARCH-12 / ACCEPTED**
 
 ARCH-12 extracts invariants from the accepted EMAH / AHME architecture.
 
@@ -89,4 +89,5 @@ Therefore:
 ARCH-13 may derive proof obligations from accepted invariants.
 
 ARCH-12 itself stops at invariant definition and registry.
+
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-12-P01 / CANDIDATE**
+**EMAH-ARCH-12 / ACCEPTED**
 
 | ID | Family | Invariant |
 |---|---|---|
@@ -91,4 +91,5 @@
 **Invariant != Proof**
 
 No invariant in this registry constitutes formal verification.
+
 

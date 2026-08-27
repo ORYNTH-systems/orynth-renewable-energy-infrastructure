@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-12-P01 / CANDIDATE**
+**EMAH-ARCH-12 / ACCEPTED**
 
 ### EMAH-INV-EXE-001
 
@@ -67,4 +67,5 @@ Under-effect and over-effect SHALL remain semantically typed separately.
 
 A multi-dimensional effect SHALL NOT be collapsed into a scalar without an
 explicit aggregation rule.
+
 

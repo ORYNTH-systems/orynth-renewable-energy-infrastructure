@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-12-P01 / CANDIDATE**
+**EMAH-ARCH-12 / ACCEPTED**
 
 ### EMAH-INV-REC-001
 
@@ -78,4 +78,5 @@ continuity.
 
 Preservation relevant to identity SHALL NOT independently establish identity
 continuity.
+
 

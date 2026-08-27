@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-12-P01 / CANDIDATE**
+**EMAH-ARCH-12 / ACCEPTED**
 
 ### EMAH-INV-OBL-001
 
@@ -98,4 +98,5 @@ Architectural dependency SHALL NOT transfer ownership.
 **Need for Primitive != EMAH Ownership of Primitive**
 
 Need for an external primitive SHALL NOT justify silent duplication.
+
 

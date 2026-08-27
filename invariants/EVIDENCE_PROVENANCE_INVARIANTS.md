@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-12-P01 / CANDIDATE**
+**EMAH-ARCH-12 / ACCEPTED**
 
 ### EMAH-INV-EVD-001
 
@@ -78,4 +78,5 @@ Proof of Block SHALL NOT create execution authority.
 
 Certificate evidence SHALL NOT be treated as persistent physical-energy
 identity.
+
 

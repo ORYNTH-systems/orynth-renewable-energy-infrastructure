@@ -26,7 +26,7 @@ The architecture is being developed repository-first. Technical papers, formal c
 | Evidence Architecture | NOT YET AUTHORIZED |
 | Obligation Architecture | ACCEPTED |
 | Invariant Registry | NOT YET AUTHORIZED |
-| Proof Obligations | NOT YET AUTHORIZED |
+| Proof Obligations | AUTHORIZED TO BEGIN |
 | Reference Implementation | NOT YET AUTHORIZED |
 | Simulation Architecture | NOT YET AUTHORIZED |
 | Technical Papers | NOT YET AUTHORIZED |
@@ -60,6 +60,7 @@ Explicit admission is required.
 ---
 
 ORYNTH Systems
+
 
 
 
