@@ -2,50 +2,50 @@
 
 ## Status
 
-**EMAH-ARCH-03-P02 / CORRECTED CANDIDATE**
+**EMAH-ARCH-03 / ACCEPTED**
 
 | ID | Canonical Type | Family | Owner | Status |
 |---|---|---|---|---|
-| EMAH-DOM-001 | EMAHDomain | DOM | EMAH | CANDIDATE |
-| EMAH-DOM-002 | AHMESubdomain | DOM | EMAH/AHME | CANDIDATE |
-| EMAH-ENG-001 | EnergySource | ENG | EMAH | CANDIDATE |
-| EMAH-ENG-002 | EnergyCarrier | ENG | EMAH | CANDIDATE |
-| EMAH-ENG-003 | EnergyQuantity | ENG | EMAH | CANDIDATE |
-| EMAH-ENG-004 | EnergyFlowInterval | ENG | EMAH | CANDIDATE |
-| EMAH-ENG-005 | EnergyBatch | ENG | EMAH | CANDIDATE / CARRIER-CONDITIONAL |
-| EMAH-CAP-001 | EnergyCapacity | CAP | EMAH | CANDIDATE |
-| EMAH-CAP-003 | ReserveDesignation | CAP | EMAH | CANDIDATE |
-| EMAH-ATR-001 | EnergyAttribute | ATR | EMAH | CANDIDATE |
-| EMAH-ATR-002 | RenewableAttribute | ATR | EMAH | CANDIDATE |
-| EMAH-ATR-003 | QualificationClaim | ATR | EMAH | CANDIDATE |
-| EMAH-INF-001 | EnergyAsset | INF | EMAH | CANDIDATE |
-| EMAH-INF-002 | GenerationAsset | INF | EMAH | CANDIDATE |
-| EMAH-INF-003 | StorageAsset | INF | EMAH | CANDIDATE |
-| EMAH-INF-004 | ConversionAsset | INF | EMAH | CANDIDATE |
-| EMAH-INF-005 | TransferInterface | INF | EMAH | CANDIDATE |
-| EMAH-INF-006 | EnergyNode | INF | EMAH | CANDIDATE |
-| EMAH-INF-007 | LoadAsset | INF | EMAH | CANDIDATE |
-| EMAH-INF-008 | MeasurementPoint | INF | EMAH | CANDIDATE |
-| EMAH-INF-009 | ControlInterface | INF | EMAH | CANDIDATE |
-| EMAH-INF-010 | MicrogridBoundary | INF | EMAH | CANDIDATE |
-| EMAH-EFF-001 | IntendedEnergyEffect | EFF | EMAH | CANDIDATE |
-| EMAH-EFF-002 | ObservedEnergyEffect | EFF | EMAH | CANDIDATE |
-| EMAH-EFF-003 | PartialEnergyEffect | EFF | EMAH | CANDIDATE |
-| EMAH-EFF-004 | EnergyEffectResidual | EFF | EMAH | CANDIDATE |
-| EMAH-REC-001 | EnergyResidual | REC | AHME | CANDIDATE |
-| EMAH-REC-002 | RecoveryProcess | REC | AHME | CANDIDATE |
-| EMAH-REC-003 | RegenerativeReturn | REC | AHME | CANDIDATE |
-| EMAH-REF-001 | AuthorityReference | REF | EMAH reference / UAA upstream | CANDIDATE |
-| EMAH-REF-002 | AdmissibilityReference | REF | EMAH reference / UAA-AOMS upstream | CANDIDATE |
-| EMAH-REF-003 | ExecutionContinuityReference | REF | EMAH reference / EIP upstream | CANDIDATE |
-| EMAH-REF-004 | ProofOfBlockReference | REF | EMAH reference / PoB upstream | CANDIDATE |
-| EMAH-REF-005 | IntegrityAssessmentReference | REF | EMAH reference / IPT upstream | CANDIDATE |
-| EMAH-REF-006 | FinancialStateReference | REF | EMAH reference / Financial Infrastructure upstream | CANDIDATE |
-| EMAH-REF-007 | SettlementReference | REF | EMAH reference / Financial Infrastructure-UES upstream | CANDIDATE |
+| EMAH-DOM-001 | EMAHDomain | DOM | EMAH | ACCEPTED |
+| EMAH-DOM-002 | AHMESubdomain | DOM | EMAH/AHME | ACCEPTED |
+| EMAH-ENG-001 | EnergySource | ENG | EMAH | ACCEPTED |
+| EMAH-ENG-002 | EnergyCarrier | ENG | EMAH | ACCEPTED |
+| EMAH-ENG-003 | EnergyQuantity | ENG | EMAH | ACCEPTED |
+| EMAH-ENG-004 | EnergyFlowInterval | ENG | EMAH | ACCEPTED |
+| EMAH-ENG-005 | EnergyBatch | ENG | EMAH | ACCEPTED / CARRIER-CONDITIONAL |
+| EMAH-CAP-001 | EnergyCapacity | CAP | EMAH | ACCEPTED |
+| EMAH-CAP-003 | ReserveDesignation | CAP | EMAH | ACCEPTED |
+| EMAH-ATR-001 | EnergyAttribute | ATR | EMAH | ACCEPTED |
+| EMAH-ATR-002 | RenewableAttribute | ATR | EMAH | ACCEPTED |
+| EMAH-ATR-003 | QualificationClaim | ATR | EMAH | ACCEPTED |
+| EMAH-INF-001 | EnergyAsset | INF | EMAH | ACCEPTED |
+| EMAH-INF-002 | GenerationAsset | INF | EMAH | ACCEPTED |
+| EMAH-INF-003 | StorageAsset | INF | EMAH | ACCEPTED |
+| EMAH-INF-004 | ConversionAsset | INF | EMAH | ACCEPTED |
+| EMAH-INF-005 | TransferInterface | INF | EMAH | ACCEPTED |
+| EMAH-INF-006 | EnergyNode | INF | EMAH | ACCEPTED |
+| EMAH-INF-007 | LoadAsset | INF | EMAH | ACCEPTED |
+| EMAH-INF-008 | MeasurementPoint | INF | EMAH | ACCEPTED |
+| EMAH-INF-009 | ControlInterface | INF | EMAH | ACCEPTED |
+| EMAH-INF-010 | MicrogridBoundary | INF | EMAH | ACCEPTED |
+| EMAH-EFF-001 | IntendedEnergyEffect | EFF | EMAH | ACCEPTED |
+| EMAH-EFF-002 | ObservedEnergyEffect | EFF | EMAH | ACCEPTED |
+| EMAH-EFF-003 | PartialEnergyEffect | EFF | EMAH | ACCEPTED |
+| EMAH-EFF-004 | EnergyEffectResidual | EFF | EMAH | ACCEPTED |
+| EMAH-REC-001 | EnergyResidual | REC | AHME | ACCEPTED |
+| EMAH-REC-002 | RecoveryProcess | REC | AHME | ACCEPTED |
+| EMAH-REC-003 | RegenerativeReturn | REC | AHME | ACCEPTED |
+| EMAH-REF-001 | AuthorityReference | REF | EMAH reference / UAA upstream | ACCEPTED |
+| EMAH-REF-002 | AdmissibilityReference | REF | EMAH reference / UAA-AOMS upstream | ACCEPTED |
+| EMAH-REF-003 | ExecutionContinuityReference | REF | EMAH reference / EIP upstream | ACCEPTED |
+| EMAH-REF-004 | ProofOfBlockReference | REF | EMAH reference / PoB upstream | ACCEPTED |
+| EMAH-REF-005 | IntegrityAssessmentReference | REF | EMAH reference / IPT upstream | ACCEPTED |
+| EMAH-REF-006 | FinancialStateReference | REF | EMAH reference / Financial Infrastructure upstream | ACCEPTED |
+| EMAH-REF-007 | SettlementReference | REF | EMAH reference / Financial Infrastructure-UES upstream | ACCEPTED |
 
 ## Count
 
-Corrected candidate canonical object types:
+Accepted canonical object types:
 
 **36**
 
@@ -69,6 +69,7 @@ because they encode state rather than object identity:
 
 ## Restriction
 
-Registry presence does not constitute canonical acceptance.
+Registry entries in this record are accepted canonical EMAH object types.
 
-No object becomes ACCEPTED until EMAH-ARCH-03-P02 review completes.
+No lifecycle state or transition is authorized by this registry.
+

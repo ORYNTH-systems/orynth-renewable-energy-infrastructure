@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-03-P02 / CORRECTED CANDIDATE**
+**EMAH-ARCH-03 / ACCEPTED CANONICAL OBJECT SYSTEM**
 
 This document defines the candidate canonical object system for EMAH / AHME.
 
@@ -671,8 +671,9 @@ No object defined here may be assigned canonical states or transitions until:
 
 is separately authorized and accepted.
 
-This record is presently a corrected candidate and requires review.
+This record is accepted as the EMAH canonical object system.
 
 State-like predicates removed from the ARCH-03 ontology are reserved
 for ARCH-04 and do not become canonical merely by being named here.
+
 
