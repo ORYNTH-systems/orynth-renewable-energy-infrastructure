@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-16-P01 / CANDIDATE**
+**EMAH-ARCH-16 / ACCEPTED**
 
 Simulation may produce evidence-like artifacts for analysis.
 
@@ -58,4 +58,5 @@ It does not independently establish real-world behavior.
 Therefore:
 
 **Simulation Reproducibility != Production Reproducibility**
+
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-16-P01 / CANDIDATE**
+**EMAH-ARCH-16 / ACCEPTED**
 
 Simulation may exercise AHME recovery paths without changing accepted AHME
 semantics.
@@ -58,4 +58,5 @@ A later successful recovery branch SHALL NOT erase:
 Therefore:
 
 **Simulated Recovery != Simulated Historical Erasure**
+
 

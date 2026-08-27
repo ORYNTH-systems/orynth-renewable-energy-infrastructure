@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-16-P01 / CANDIDATE**
+**EMAH-ARCH-16 / ACCEPTED**
 
 | ID | Scenario Class | Purpose | Initial Status |
 |---|---|---|---|
@@ -31,3 +31,4 @@
 **Scenario Class Defined != Scenario Executed**
 
 No scenario class is represented as executed or passed by ARCH-16-P01.
+

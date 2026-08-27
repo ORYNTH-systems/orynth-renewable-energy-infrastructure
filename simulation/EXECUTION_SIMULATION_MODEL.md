@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-16-P01 / CANDIDATE**
+**EMAH-ARCH-16 / ACCEPTED**
 
 The simulation engine may represent consequential execution chains.
 
@@ -68,4 +68,5 @@ No simulated observation must not be collapsed into simulated zero.
 Therefore:
 
 **No Simulated Observation != Simulated O = 0**
+
 

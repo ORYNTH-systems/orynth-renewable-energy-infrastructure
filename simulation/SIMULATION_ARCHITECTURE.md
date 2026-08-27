@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-16-P01 / CANDIDATE**
+**EMAH-ARCH-16 / ACCEPTED**
 
 ARCH-16 defines a bounded simulation architecture for exercising accepted
 EMAH / AHME architecture.
@@ -165,4 +165,5 @@ states.
 Cross-lock and orphan detection remain reserved for:
 
 **EMAH-ARCH-17 — Cross-Lock / Orphan Detection**
+
 

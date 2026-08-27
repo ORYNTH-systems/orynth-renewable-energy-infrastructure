@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-16-P01 / CANDIDATE**
+**EMAH-ARCH-16 / ACCEPTED**
 
 Threat injection permits controlled exercise of accepted ARCH-14
 threat/failure classes.
@@ -65,4 +65,5 @@ obligation.
 Therefore:
 
 **Simulated Threat Realization != Proof Discharge**
+
 

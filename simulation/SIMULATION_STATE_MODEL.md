@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-16-P01 / CANDIDATE**
+**EMAH-ARCH-16 / ACCEPTED**
 
 Simulation state references accepted EMAH state semantics.
 
@@ -70,4 +70,5 @@ Each branch must preserve its own lineage.
 Therefore:
 
 **Simulation Branch != Shared Outcome**
+
 

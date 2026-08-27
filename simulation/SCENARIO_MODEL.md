@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-16-P01 / CANDIDATE**
+**EMAH-ARCH-16 / ACCEPTED**
 
 ---
 
@@ -70,4 +70,5 @@ A scenario intended for reproducible analysis must preserve:
 Therefore:
 
 **Same Scenario Name != Same Simulation Run**
+
 
