@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-01 / CANDIDATE CONSTITUTIONAL RECORD**
+**EMAH-ARCH-01 / ACCEPTED CONSTITUTIONAL RECORD**
 
 This record establishes preliminary distinctions that the later EMAH architecture must preserve.
 
@@ -244,3 +244,4 @@ The following surfaces remain closed:
 **EMAH-ARCH-05 — Energy Lifecycle and Transition Registry**
 
 No later layer may be treated as admitted from the existence of this document.
+

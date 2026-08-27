@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-01 / CANDIDATE CONSTITUTIONAL RECORD**
+**EMAH-ARCH-01 / ACCEPTED CONSTITUTIONAL RECORD**
 
 This record defines the initial mission boundary of EMAH / AHME.
 
@@ -135,7 +135,7 @@ Future interfaces with those systems do not erase these distinctions.
 
 ## 7. Current Disposition
 
-Mission boundary: **CANDIDATE**
+Mission boundary: **ACCEPTED**
 
 Canonical ontology: **NOT YET AUTHORIZED**
 
@@ -148,3 +148,4 @@ Proof obligations: **NOT YET AUTHORIZED**
 Reference implementation: **NOT YET AUTHORIZED**
 
 Technical papers: **NOT YET AUTHORIZED**
+

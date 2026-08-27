@@ -13,8 +13,8 @@ The architecture is being developed repository-first. Technical papers, formal c
 | Surface | Status |
 |---|---|
 | Repository Identity | ACTIVE |
-| Constitutional Mission | ACTIVE |
-| Scope and Boundary | ACTIVE |
+| Constitutional Mission | ACCEPTED |
+| Scope and Boundary | ACCEPTED |
 | Inherited ORYNTH Architecture | NOT YET AUTHORIZED |
 | Canonical Ontology | NOT YET AUTHORIZED |
 | Lifecycle | NOT YET AUTHORIZED |
@@ -59,3 +59,4 @@ Explicit admission is required.
 ---
 
 ORYNTH Systems
+
