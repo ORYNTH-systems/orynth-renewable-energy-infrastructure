@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-07-P01 / CANDIDATE**
+**EMAH-ARCH-07 / ACCEPTED PARTIAL PHYSICAL EFFECT ALGEBRA**
 
 ---
 
@@ -199,4 +199,5 @@ Therefore:
 **Physical Partial Effect != Financial Partial Effect**
 
 The Financial Infrastructure interface remains external.
+
 

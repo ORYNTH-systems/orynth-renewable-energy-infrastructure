@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-07-P01 / CANDIDATE**
+**EMAH-ARCH-07 / ACCEPTED PHYSICAL EFFECT MODEL**
 
 ---
 
@@ -162,4 +162,5 @@ Therefore:
 **Physical Effect Equality != Settlement Finality**
 
 **Physical Effect Residual != Financial Residual**
+
 

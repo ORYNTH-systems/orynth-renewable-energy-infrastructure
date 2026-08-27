@@ -21,7 +21,7 @@ The architecture is being developed repository-first. Technical papers, formal c
 | Lifecycle | ACCEPTED |
 | Authority Model | ACCEPTED |
 | Admissibility Model | ACCEPTED |
-| Consequential Execution | ACTIVE / UNDER REVIEW |
+| Consequential Execution | ACCEPTED |
 | AHME Recovery Architecture | NOT YET AUTHORIZED |
 | Evidence Architecture | NOT YET AUTHORIZED |
 | Obligation Architecture | NOT YET AUTHORIZED |
@@ -60,6 +60,7 @@ Explicit admission is required.
 ---
 
 ORYNTH Systems
+
 
 
 

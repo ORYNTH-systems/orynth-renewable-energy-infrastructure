@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-07-P01 / CANDIDATE**
+**EMAH-ARCH-07 / ACCEPTED CONSEQUENTIAL EXECUTION MODEL**
 
 This document defines candidate consequential execution semantics for EMAH.
 
@@ -213,4 +213,5 @@ That remains reserved for:
 **EMAH-ARCH-08 — AHME Recovery / Return Architecture**
 
 Evidence/provenance remains reserved for ARCH-09.
+
 

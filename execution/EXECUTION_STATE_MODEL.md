@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-07-P01 / CANDIDATE**
+**EMAH-ARCH-07 / ACCEPTED EXECUTION STATE MODEL**
 
 These are execution-process states.
 
@@ -46,4 +46,5 @@ They do not independently change:
 - evidence state;
 - recovery state;
 - continuity state.
+
 

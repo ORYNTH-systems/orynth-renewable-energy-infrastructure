@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-07-P01 / CANDIDATE**
+**EMAH-ARCH-07 / ACCEPTED**
 
 | ID | Outcome | Meaning | Effect Inference |
 |---|---|---|---|
@@ -26,3 +26,4 @@ Execution outcome does not silently determine physical effect.
 Therefore:
 
 **Execution Outcome != Physical Effect Classification**
+
