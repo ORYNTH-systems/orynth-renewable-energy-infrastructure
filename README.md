@@ -17,8 +17,8 @@ The architecture is being developed repository-first. Technical papers, formal c
 | Scope and Boundary | ACCEPTED |
 | Inherited ORYNTH Architecture | ACCEPTED |
 | Canonical Ontology | ACCEPTED |
-| Multi-Dimensional State Model | AUTHORIZED TO BEGIN |
-| Lifecycle | NOT YET AUTHORIZED |
+| Multi-Dimensional State Model | ACCEPTED |
+| Lifecycle | AUTHORIZED TO BEGIN |
 | Authority Model | NOT YET AUTHORIZED |
 | Admissibility Model | NOT YET AUTHORIZED |
 | Consequential Execution | NOT YET AUTHORIZED |
@@ -60,6 +60,7 @@ Explicit admission is required.
 ---
 
 ORYNTH Systems
+
 
 
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-04-P01 / CANDIDATE**
+**EMAH-ARCH-04 / ACCEPTED**
 
 # Physical State
 
@@ -124,7 +124,7 @@
 
 ## Registry Rule
 
-These are candidate state values only.
+These are accepted EMAH state values.
 
 Their presence does not establish:
 
@@ -136,3 +136,4 @@ Their presence does not establish:
 - transition admissibility.
 
 Those semantics are reserved for EMAH-ARCH-05.
+

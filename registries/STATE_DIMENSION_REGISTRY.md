@@ -2,19 +2,19 @@
 
 ## Status
 
-**EMAH-ARCH-04-P01 / CANDIDATE**
+**EMAH-ARCH-04 / ACCEPTED**
 
 | ID | Dimension | Symbol | Semantic Owner | Status |
 |---|---|---:|---|---|
-| EMAH-STATE-PHY | Physical State | P | EMAH | CANDIDATE |
-| EMAH-STATE-AUTH | Authority-Reference State | A | Upstream authority / EMAH reference | CANDIDATE |
-| EMAH-STATE-ADM | Admissibility-Reference State | D | UAA/AOMS relation / EMAH reference | CANDIDATE |
-| EMAH-STATE-CTL | Control State | C | EMAH | CANDIDATE |
-| EMAH-STATE-ECO | Economic-Reference State | F | Financial Infrastructure / EMAH reference | CANDIDATE |
-| EMAH-STATE-EVD | Evidentiary State | V | EMAH evidence condition / upstream assurance bounded | CANDIDATE |
-| EMAH-STATE-ATR | Environmental-Attribute State | R | EMAH | CANDIDATE |
-| EMAH-STATE-REC | Recovery State | H | AHME | CANDIDATE |
-| EMAH-STATE-CON | Continuity State | K | EMAH/AHME domain continuity | CANDIDATE |
+| EMAH-STATE-PHY | Physical State | P | EMAH | ACCEPTED |
+| EMAH-STATE-AUTH | Authority-Reference State | A | Upstream authority / EMAH reference | ACCEPTED |
+| EMAH-STATE-ADM | Admissibility-Reference State | D | UAA/AOMS relation / EMAH reference | ACCEPTED |
+| EMAH-STATE-CTL | Control State | C | EMAH | ACCEPTED |
+| EMAH-STATE-ECO | Economic-Reference State | F | Financial Infrastructure / EMAH reference | ACCEPTED |
+| EMAH-STATE-EVD | Evidentiary State | V | EMAH evidence condition / upstream assurance bounded | ACCEPTED |
+| EMAH-STATE-ATR | Environmental-Attribute State | R | EMAH | ACCEPTED |
+| EMAH-STATE-REC | Recovery State | H | AHME | ACCEPTED |
+| EMAH-STATE-CON | Continuity State | K | EMAH/AHME domain continuity | ACCEPTED |
 
 ## Dimension Count
 
@@ -29,3 +29,4 @@ It does not establish a lifecycle transition.
 Therefore:
 
 **State Dimension != Lifecycle Transition**
+

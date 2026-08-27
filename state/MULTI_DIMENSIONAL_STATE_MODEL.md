@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-04-P01 / CANDIDATE**
+**EMAH-ARCH-04 / ACCEPTED MULTI-DIMENSIONAL STATE MODEL**
 
 This document defines the candidate multi-dimensional state architecture
 for EMAH / AHME.
@@ -632,4 +632,5 @@ Every transition must later receive:
 - failure semantics.
 
 Those fields remain outside ARCH-04.
+
 
