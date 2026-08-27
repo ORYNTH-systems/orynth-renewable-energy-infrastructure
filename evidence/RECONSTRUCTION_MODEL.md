@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-09-P01 / CANDIDATE**
+**EMAH-ARCH-09 / ACCEPTED**
 
 Reconstruction determines what can be defensibly re-established from
 retained evidence.
@@ -75,4 +75,5 @@ that distinction must remain explicit.
 Therefore:
 
 **Reconstructed Continuity != Preserved Continuity**
+
 

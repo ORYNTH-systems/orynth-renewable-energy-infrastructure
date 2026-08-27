@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-09-P01 / CANDIDATE**
+**EMAH-ARCH-09 / ACCEPTED**
 
 | ID | Evidence Class | Primary Purpose |
 |---|---|---|
@@ -26,3 +26,4 @@
 **Evidence Class != Authority Class**
 
 No evidence class creates execution authority.
+

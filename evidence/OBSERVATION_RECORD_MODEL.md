@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-09-P01 / CANDIDATE**
+**EMAH-ARCH-09 / ACCEPTED**
 
 Observation records support physical-effect and state determination.
 
@@ -73,4 +73,5 @@ They shall not be silently resolved by deletion.
 Therefore:
 
 **Conflict != Resolution**
+
 

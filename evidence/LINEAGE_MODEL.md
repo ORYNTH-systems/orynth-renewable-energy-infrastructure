@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-09-P01 / CANDIDATE**
+**EMAH-ARCH-09 / ACCEPTED**
 
 Lineage preserves the historical relationship among EMAH / AHME records.
 
@@ -89,4 +89,5 @@ Historical linkage does not imply persistent physical particle identity.
 Therefore:
 
 **Record Continuity != Persistent Physical Energy Identity**
+
 

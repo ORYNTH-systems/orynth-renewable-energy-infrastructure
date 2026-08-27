@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-09-P01 / CANDIDATE**
+**EMAH-ARCH-09 / ACCEPTED**
 
 Provenance identifies where a record, observation, claim, or evidence item
 came from and how it relates to prior records.
@@ -90,4 +90,5 @@ Certificate provenance may establish who issued a certificate and under
 what recorded basis.
 
 It does not establish persistent physical energy identity.
+
 

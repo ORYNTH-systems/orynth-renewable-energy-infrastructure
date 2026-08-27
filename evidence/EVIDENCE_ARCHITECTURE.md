@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-09-P01 / CANDIDATE**
+**EMAH-ARCH-09 / ACCEPTED**
 
 Evidence supports reconstruction, inspection, and defensible determination.
 
@@ -165,4 +165,5 @@ ARCH-09 defines evidence and provenance architecture.
 It does not yet define generic obligation ownership.
 
 That remains reserved for ARCH-10.
+
 
