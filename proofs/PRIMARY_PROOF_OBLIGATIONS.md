@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-13-P01 / CANDIDATE**
+**EMAH-ARCH-13 / ACCEPTED**
 
 This corpus contains one primary OPEN proof obligation for each of the
 65 accepted ARCH-12 invariants.
@@ -1310,3 +1310,4 @@ invariant.
 No discharge is claimed by ARCH-13-P01.
 
 ---
+

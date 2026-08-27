@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-13-P01 / CANDIDATE**
+**EMAH-ARCH-13 / ACCEPTED**
 
 ARCH-13 derives explicit proof obligations from the accepted ARCH-12
 invariant corpus.
@@ -191,4 +191,5 @@ Threat / failure taxonomy remains reserved for:
 **EMAH-ARCH-14 — Threat / Failure Taxonomy**
 
 ARCH-13 defines proof obligations only.
+
 

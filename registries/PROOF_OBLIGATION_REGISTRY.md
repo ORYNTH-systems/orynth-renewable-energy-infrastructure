@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-13-P01 / CANDIDATE**
+**EMAH-ARCH-13 / ACCEPTED**
 
 Every proof obligation in this registry begins OPEN.
 
@@ -91,3 +91,4 @@ All 65 obligations are:
 **Proof Obligation Defined != Proof Obligation Discharged**
 
 No registry row constitutes proof, verification, conformance, or discharge.
+

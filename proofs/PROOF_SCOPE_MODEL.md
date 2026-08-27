@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-13-P01 / CANDIDATE**
+**EMAH-ARCH-13 / ACCEPTED**
 
 Every proof obligation and discharge claim must preserve explicit scope.
 
@@ -69,4 +69,5 @@ modified version.
 Therefore:
 
 **Proof of Version N != Proof of Version N+1**
+
 

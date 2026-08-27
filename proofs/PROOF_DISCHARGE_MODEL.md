@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-13-P01 / CANDIDATE**
+**EMAH-ARCH-13 / ACCEPTED**
 
 ---
 
@@ -88,4 +88,5 @@ independently establish correctness.
 Therefore:
 
 **Self-Generated Proof Artifact != Independent Verification**
+
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-13-P01 / CANDIDATE**
+**EMAH-ARCH-13 / ACCEPTED**
 
 Evidence is necessary for many proof obligations.
 
@@ -78,4 +78,5 @@ Recovery evidence may establish recovery events or states.
 
 It does not independently prove that recovery preserved every required
 continuity or obligation invariant.
+
 

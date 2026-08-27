@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-13-P01 / CANDIDATE**
+**EMAH-ARCH-13 / ACCEPTED**
 
 | Invariant | Primary Proof Obligation | Mapping | Proof Status |
 |---|---|---|---|
@@ -83,3 +83,4 @@ Future proof decomposition may add subordinate obligations without deleting
 the primary mapping.
 
 **Invariant Mapping != Proof Discharge**
+
