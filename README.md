@@ -28,7 +28,7 @@ The architecture is being developed repository-first. Technical papers, formal c
 | Invariant Registry | NOT YET AUTHORIZED |
 | Proof Obligations | ACCEPTED |
 | Reference Implementation | NOT YET AUTHORIZED |
-| Simulation Architecture | NOT YET AUTHORIZED |
+| Simulation Architecture | AUTHORIZED TO BEGIN |
 | Technical Papers | NOT YET AUTHORIZED |
 
 ## Foundational Boundary
@@ -60,6 +60,7 @@ Explicit admission is required.
 ---
 
 ORYNTH Systems
+
 
 
 

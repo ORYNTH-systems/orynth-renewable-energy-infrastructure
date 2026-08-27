@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-15-P01 / CANDIDATE**
+**EMAH-ARCH-15 / ACCEPTED**
 
 ARCH-15 defines a reference component architecture corresponding to the
 accepted EMAH / AHME semantic architecture.
@@ -191,4 +191,5 @@ Therefore:
 Simulation architecture remains reserved for:
 
 **EMAH-ARCH-16 — Simulation Architecture**
+
 

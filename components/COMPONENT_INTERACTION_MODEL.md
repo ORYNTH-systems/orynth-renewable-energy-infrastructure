@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-15-P01 / CANDIDATE**
+**EMAH-ARCH-15 / ACCEPTED**
 
 Reference components may compose into a runtime chain.
 
@@ -63,4 +63,5 @@ INDETERMINATE, or unresolved state.
 Therefore:
 
 **Downstream Success != Upstream Failure Erasure**
+
 

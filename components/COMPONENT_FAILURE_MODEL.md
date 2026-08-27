@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-15-P01 / CANDIDATE**
+**EMAH-ARCH-15 / ACCEPTED**
 
 Component failure semantics remain distinct from architectural threat
 identification.
@@ -50,4 +50,5 @@ It is not automatically proof of the underlying system-wide proposition.
 Therefore:
 
 **Component Failure Record != Global Failure Proof**
+
 

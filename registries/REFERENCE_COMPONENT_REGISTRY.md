@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-15-P01 / CANDIDATE**
+**EMAH-ARCH-15 / ACCEPTED**
 
 | ID | Reference Component | Primary Role | Initial Status |
 |---|---|---|---|
@@ -30,3 +30,4 @@
 **Reference Component Exists != Component Conforms**
 
 All 14 components are DEFINED only.
+

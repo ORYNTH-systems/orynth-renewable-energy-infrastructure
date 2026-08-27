@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-15-P01 / CANDIDATE**
+**EMAH-ARCH-15 / ACCEPTED**
 
 This registry records primary component responsibility surfaces.
 
@@ -34,4 +34,5 @@ It does not establish conformance or enforcement.
 **Component Mapping != Invariant Enforcement**
 
 **Component Mapping != Proof Discharge**
+
 

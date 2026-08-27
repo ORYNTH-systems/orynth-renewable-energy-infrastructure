@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-15-P01 / CANDIDATE**
+**EMAH-ARCH-15 / ACCEPTED**
 
 ---
 
@@ -61,4 +61,5 @@ It does not independently discharge proof obligations.
 Therefore:
 
 **Conformance Evidence != Proof Discharge**
+
 

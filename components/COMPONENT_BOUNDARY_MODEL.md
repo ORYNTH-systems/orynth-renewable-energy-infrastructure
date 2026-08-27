@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-15-P01 / CANDIDATE**
+**EMAH-ARCH-15 / ACCEPTED**
 
 Each reference component SHALL have a declared responsibility boundary.
 
@@ -60,4 +60,5 @@ It does not gain ownership by consuming them.
 Therefore:
 
 **Consumption != Ownership**
+
 
