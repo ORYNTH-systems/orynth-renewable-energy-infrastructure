@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 ### EMAH-TF-EVD-001
 Evidence is treated as authority.
@@ -39,4 +39,5 @@ Proof of Block is treated as execution authority.
 
 ### EMAH-TF-EVD-012
 Certificate evidence is treated as persistent physical energy identity.
+
 

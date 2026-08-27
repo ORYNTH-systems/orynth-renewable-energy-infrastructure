@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 | Invariant | Threat / Failure | Proof Obligation | Threat Status | Proof Status |
 |---|---|---|---|---|
@@ -86,3 +86,4 @@ All threat/failure classes begin IDENTIFIED.
 **Threat Mapping != Threat Demonstration**
 
 **Threat Mapping != Proof Discharge**
+

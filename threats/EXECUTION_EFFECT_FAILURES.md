@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 ### EMAH-TF-EXE-001
 Command presentation is treated as execution attempt.
@@ -34,4 +34,5 @@ Under-effect and over-effect residuals are collapsed into one untyped value.
 ### EMAH-TF-EXE-010
 Multi-dimensional physical effect is collapsed into a scalar without an
 explicit aggregation rule.
+
 

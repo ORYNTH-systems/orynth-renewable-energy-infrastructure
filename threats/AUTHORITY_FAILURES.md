@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 ### EMAH-TF-AUTH-001
 Capability is treated as sufficient authority.
@@ -27,4 +27,5 @@ Evidence is treated as authority.
 
 ### EMAH-TF-AUTH-008
 Obligation existence is treated as authority.
+
 

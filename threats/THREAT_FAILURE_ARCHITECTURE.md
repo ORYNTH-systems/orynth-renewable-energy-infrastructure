@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 ARCH-14 inverts accepted invariant boundaries into explicit threat and failure
 conditions.
@@ -137,4 +137,5 @@ It defines EMAH / AHME threat and failure classes only.
 Reference component architecture remains reserved for:
 
 **EMAH-ARCH-15 — Reference Component Architecture**
+
 

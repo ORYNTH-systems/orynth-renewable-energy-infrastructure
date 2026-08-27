@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 ### EMAH-TF-REC-001
 Residual existence is treated as recoverability.
@@ -39,4 +39,5 @@ Energy continuity is collapsed into rule-identity continuity.
 
 ### EMAH-TF-REC-012
 Identity-relevant preservation is treated as identity continuity.
+
 

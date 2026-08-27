@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 ### EMAH-TF-FIN-001
 Physical energy effect is collapsed into economic effect.
@@ -27,4 +27,5 @@ Physical effect equality is treated as financial settlement finality.
 
 ### EMAH-TF-FIN-008
 ReserveDesignation is treated as execution authority.
+
 

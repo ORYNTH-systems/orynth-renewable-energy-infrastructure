@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 | Threat / Failure ID | Source Invariant | Proof Obligation | Family | Taxonomy Status |
 |---|---|---|---|---|
@@ -87,3 +87,4 @@ This status does not mean demonstrated, exploitable, or observed.
 ## Governing Rule
 
 **Threat Identified != Threat Demonstrated != Threat Exploitable != Failure Observed**
+

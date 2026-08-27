@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-14-P01 / CANDIDATE**
+**EMAH-ARCH-14 / ACCEPTED**
 
 ### EMAH-TF-OBL-001
 Obligation is treated as authority.
@@ -49,4 +49,5 @@ Dependency is treated as ownership transfer.
 ### EMAH-TF-INT-005
 Need for an external primitive is used to justify silent EMAH ownership or
 duplication.
+
 
