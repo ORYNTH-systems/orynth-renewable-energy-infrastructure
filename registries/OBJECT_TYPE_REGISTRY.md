@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-03-P01 / CANDIDATE**
+**EMAH-ARCH-03-P02 / CORRECTED CANDIDATE**
 
 | ID | Canonical Type | Family | Owner | Status |
 |---|---|---|---|---|
@@ -14,9 +14,7 @@
 | EMAH-ENG-004 | EnergyFlowInterval | ENG | EMAH | CANDIDATE |
 | EMAH-ENG-005 | EnergyBatch | ENG | EMAH | CANDIDATE / CARRIER-CONDITIONAL |
 | EMAH-CAP-001 | EnergyCapacity | CAP | EMAH | CANDIDATE |
-| EMAH-CAP-002 | AvailableEnergyCapacity | CAP | EMAH | CANDIDATE |
-| EMAH-CAP-003 | EnergyReserve | CAP | EMAH | CANDIDATE |
-| EMAH-CAP-004 | RegeneratedCapacity | CAP | EMAH/AHME | CANDIDATE |
+| EMAH-CAP-003 | ReserveDesignation | CAP | EMAH | CANDIDATE |
 | EMAH-ATR-001 | EnergyAttribute | ATR | EMAH | CANDIDATE |
 | EMAH-ATR-002 | RenewableAttribute | ATR | EMAH | CANDIDATE |
 | EMAH-ATR-003 | QualificationClaim | ATR | EMAH | CANDIDATE |
@@ -35,11 +33,8 @@
 | EMAH-EFF-003 | PartialEnergyEffect | EFF | EMAH | CANDIDATE |
 | EMAH-EFF-004 | EnergyEffectResidual | EFF | EMAH | CANDIDATE |
 | EMAH-REC-001 | EnergyResidual | REC | AHME | CANDIDATE |
-| EMAH-REC-002 | RecoverableEnergy | REC | AHME | CANDIDATE |
-| EMAH-REC-003 | RecoveredEnergy | REC | AHME | CANDIDATE |
-| EMAH-REC-004 | RequalifiedEnergy | REC | AHME | CANDIDATE |
-| EMAH-REC-005 | ReintegratedEnergy | REC | AHME | CANDIDATE |
-| EMAH-REC-006 | RegenerativeReturn | REC | AHME | CANDIDATE |
+| EMAH-REC-002 | RecoveryProcess | REC | AHME | CANDIDATE |
+| EMAH-REC-003 | RegenerativeReturn | REC | AHME | CANDIDATE |
 | EMAH-REF-001 | AuthorityReference | REF | EMAH reference / UAA upstream | CANDIDATE |
 | EMAH-REF-002 | AdmissibilityReference | REF | EMAH reference / UAA-AOMS upstream | CANDIDATE |
 | EMAH-REF-003 | ExecutionContinuityReference | REF | EMAH reference / EIP upstream | CANDIDATE |
@@ -50,12 +45,30 @@
 
 ## Count
 
-Candidate canonical object types:
+Corrected candidate canonical object types:
 
-**41**
+**36**
+
+## Removed State-Like Candidate Types
+
+The following P01 candidates were removed from the canonical object registry
+because they encode state rather than object identity:
+
+- AvailableEnergyCapacity
+- RegeneratedCapacity
+- RecoverableEnergy
+- RecoveredEnergy
+- RequalifiedEnergy
+- ReintegratedEnergy
+
+## Reconciliation
+
+`EnergyReserve` was replaced by `ReserveDesignation`.
+
+`RecoveryProcess` was introduced as a genuine AHME process object.
 
 ## Restriction
 
 Registry presence does not constitute canonical acceptance.
 
-No object becomes ACCEPTED until EMAH-ARCH-03 review completes.
+No object becomes ACCEPTED until EMAH-ARCH-03-P02 review completes.

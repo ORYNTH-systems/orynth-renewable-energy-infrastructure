@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-03-P01 / CANDIDATE**
+**EMAH-ARCH-03-P02 / CORRECTED CANDIDATE**
 
 This document defines the candidate canonical object system for EMAH / AHME.
 
@@ -203,40 +203,37 @@ Therefore:
 
 ---
 
-## EMAH-CAP-002 — AvailableEnergyCapacity
+## EMAH-CAP-003 — ReserveDesignation
 
-Represents capacity determined to be physically available under a declared observation boundary.
+Represents a domain-specific designation associating an identified
+EnergyQuantity or EnergyCapacity with a declared reserve purpose.
 
-Availability does not imply admission or authority.
+ReserveDesignation does not transform the underlying energy or capacity
+into a different physical object.
 
-Therefore:
+It does not independently establish:
 
-**Available Capacity != Admissible Capacity**
+- ownership;
+- custody;
+- generic obligation;
+- authority;
+- admissibility; or
+- execution eligibility.
 
----
-
-## EMAH-CAP-003 — EnergyReserve
-
-Represents energetic capacity or quantity encumbered by a declared reserve purpose or obligation.
-
-Reserve status does not independently establish ownership, custody, or execution authority.
-
-A later obligation architecture must determine the nature and enforceability of the reserve relation.
-
----
-
-## EMAH-CAP-004 — RegeneratedCapacity
-
-Represents energetic capacity made available through a recovery or regenerative process.
-
-RegeneratedCapacity remains subject to requalification and readmission.
+The enforceability and obligation semantics of a reserve designation
+remain reserved for later architecture.
 
 Therefore:
 
-**Regenerated Capacity != Automatically Admissible Capacity**
+**ReserveDesignation != EnergyQuantity**
+
+**ReserveDesignation != EnergyCapacity**
+
+**ReserveDesignation != Generic Obligation**
+
+**ReserveDesignation != Execution Authority**
 
 ---
-
 # 6. Environmental and Descriptive Attribute Objects
 
 ## EMAH-ATR-001 — EnergyAttribute
@@ -460,65 +457,89 @@ Therefore:
 
 ## EMAH-REC-001 — EnergyResidual
 
-Represents energy-domain remainder or residual condition following a consequential energy process.
+Represents a bounded energy-domain remainder, residual quantity,
+or residual energetic condition identified following a consequential
+energy process.
 
-Residual classification alone does not establish recoverability.
+EnergyResidual may later receive state classifications including
+recoverability-related states.
 
----
-
-## EMAH-REC-002 — RecoverableEnergy
-
-Represents energetic quantity or capacity classified as potentially recoverable under declared recovery semantics.
-
-Recoverable does not mean recovered.
+Those classifications are not object identities.
 
 Therefore:
 
-**Recoverable != Recovered**
+**EnergyResidual != Recoverability State**
 
 ---
 
-## EMAH-REC-003 — RecoveredEnergy
+## EMAH-REC-002 — RecoveryProcess
 
-Represents energy or capacity resulting from a completed recovery process.
+Represents a bounded physical or governed process intended to recover
+usable energetic quantity or capacity from an identified residual,
+asset, carrier, or other admitted recovery source.
 
-RecoveredEnergy does not automatically reacquire prior qualification, admission, reserve, ownership, or authority state.
+RecoveryProcess is the process object.
 
----
-
-## EMAH-REC-004 — RequalifiedEnergy
-
-Represents recovered or otherwise returned energetic capacity that has successfully passed a future energy-domain requalification process.
-
-Requalification does not itself establish execution authority.
+Whether recovery succeeds, fails, partially succeeds, or produces
+requalifiable energy is state and outcome architecture reserved for
+later passes.
 
 ---
 
-## EMAH-REC-005 — ReintegratedEnergy
+## EMAH-REC-003 — RegenerativeReturn
 
-Represents requalified energy or capacity admitted into a declared energy-system context for renewed participation.
+Represents a domain record of an identified AHME regenerative-return
+occurrence.
 
-Reintegration remains distinct from actual execution.
+A RegenerativeReturn may eventually reference:
 
----
-
-## EMAH-REC-006 — RegenerativeReturn
-
-Represents the domain object recording completion of a governed AHME return pathway.
-
-It may eventually bind:
-
-- prior residual;
+- source residual;
 - recovery process;
-- recovered energy;
+- resulting energy quantity or capacity;
+- requalification determination;
+- reintegration determination;
+- renewed availability determination.
+
+These referenced determinations remain separate states or records.
+
+RegenerativeReturn does not itself imply:
+
+- successful recovery;
 - requalification;
-- reintegration;
-- renewed availability.
+- readmission;
+- availability;
+- execution authority; or
+- continuity preservation.
 
 Its lifecycle semantics remain reserved for EMAH-ARCH-08.
 
 ---
 
+## Recovery-State Reservation
+
+The following concepts are explicitly reserved for
+`EMAH-ARCH-04 — Multi-Dimensional State Model` and SHALL NOT be
+canonical object types in ARCH-03:
+
+- RECOVERABLE;
+- NONRECOVERABLE;
+- RECOVERED;
+- REQUALIFIED;
+- REINTEGRATED;
+- REGENERATED;
+- AVAILABLE_AFTER_RECOVERY.
+
+Therefore:
+
+**Recoverable != Object Identity**
+
+**Recovered != Object Identity**
+
+**Requalified != Object Identity**
+
+**Reintegrated != Object Identity**
+
+---
 # 10. External Reference Objects
 
 These objects reference semantics owned outside EMAH.
@@ -616,9 +637,9 @@ The candidate object system preserves:
 
 **Availability != Admissibility**
 
-**Reserve != Ownership**
+**ReserveDesignation != Ownership**
 
-**Reserve != Authority**
+**ReserveDesignation != Authority**
 
 **RenewableAttribute != Physical Energy Identity**
 
@@ -650,4 +671,8 @@ No object defined here may be assigned canonical states or transitions until:
 
 is separately authorized and accepted.
 
-This record is presently a candidate and requires review.
+This record is presently a corrected candidate and requires review.
+
+State-like predicates removed from the ARCH-03 ontology are reserved
+for ARCH-04 and do not become canonical merely by being named here.
+
