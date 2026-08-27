@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-10-P01 / CANDIDATE**
+**EMAH-ARCH-10 / ACCEPTED**
 
 Obligation continuity concerns preservation of the obligation record and
 unresolved duty across state change.
@@ -75,4 +75,5 @@ of historical lineage.
 Therefore:
 
 **Obligation Closure != Historical Erasure**
+
 

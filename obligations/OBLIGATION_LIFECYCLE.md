@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-10-P01 / CANDIDATE**
+**EMAH-ARCH-10 / ACCEPTED**
 
 This document defines obligation status vocabulary.
 
@@ -80,4 +80,5 @@ An obligation may close with a declared residual or unresolved remainder only
 where the architecture explicitly permits that status.
 
 Closure does not mean the residual never existed.
+
 

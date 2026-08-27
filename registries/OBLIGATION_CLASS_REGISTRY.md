@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-10-P01 / CANDIDATE**
+**EMAH-ARCH-10 / ACCEPTED**
 
 | ID | Obligation Class | Domain Purpose |
 |---|---|---|
@@ -31,3 +31,4 @@ primitive.
 Therefore:
 
 **EMAH Obligation Class != Generic ORYNTH Obligation Primitive**
+

@@ -24,7 +24,7 @@ The architecture is being developed repository-first. Technical papers, formal c
 | Consequential Execution | ACCEPTED |
 | AHME Recovery Architecture | NOT YET AUTHORIZED |
 | Evidence Architecture | NOT YET AUTHORIZED |
-| Obligation Architecture | ACTIVE / UNDER REVIEW |
+| Obligation Architecture | ACCEPTED |
 | Invariant Registry | NOT YET AUTHORIZED |
 | Proof Obligations | NOT YET AUTHORIZED |
 | Reference Implementation | NOT YET AUTHORIZED |
@@ -60,6 +60,7 @@ Explicit admission is required.
 ---
 
 ORYNTH Systems
+
 
 
 

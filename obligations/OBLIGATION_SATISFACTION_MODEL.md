@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-10-P01 / CANDIDATE**
+**EMAH-ARCH-10 / ACCEPTED**
 
 ---
 
@@ -111,4 +111,5 @@ It does not create authority to take that action.
 Therefore:
 
 **Obligation Requirement != Execution Authority**
+
 

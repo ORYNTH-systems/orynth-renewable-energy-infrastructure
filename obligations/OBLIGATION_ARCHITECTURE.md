@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-10-P01 / CANDIDATE**
+**EMAH-ARCH-10 / ACCEPTED**
 
 This architecture defines bounded energy-domain obligation semantics.
 
@@ -270,4 +270,5 @@ ARCH-10 defines EMAH obligation architecture only.
 Cross-domain obligation interfaces remain reserved for:
 
 **EMAH-ARCH-11 — Cross-Domain Interfaces**
+
 

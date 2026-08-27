@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-10-P01 / CANDIDATE**
+**EMAH-ARCH-10 / ACCEPTED**
 
 This model distinguishes obligation remainder from physical-effect and AHME
 residuals.
@@ -81,4 +81,5 @@ It does not automatically extinguish all associated obligations.
 Therefore:
 
 **Recovery Completion != Universal Obligation Satisfaction**
+
 
