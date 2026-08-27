@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-08-P01 / CANDIDATE**
+**EMAH-ARCH-08 / ACCEPTED**
 
 | Gate | Question | Required Result |
 |---|---|---|
@@ -36,3 +36,4 @@ Therefore:
 **AHME Gate Pass != Historical Erasure**
 
 **AHME Gate Pass != Execution Authority**
+

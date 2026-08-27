@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-08-P01 / CANDIDATE**
+**EMAH-ARCH-08 / ACCEPTED**
 
 Recoverability is a state determination, not a new canonical object identity.
 
@@ -74,4 +74,5 @@ AHME does not reinterpret IPT evaluation as automatic recovery permission.
 Therefore:
 
 **IPT Recoverability != AHME Recovery Admission**
+
 

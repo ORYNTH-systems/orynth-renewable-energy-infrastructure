@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-08-P01 / CANDIDATE**
+**EMAH-ARCH-08 / ACCEPTED**
 
 `RegenerativeReturn` is the accepted ARCH-03 AHME domain record representing a
 governed return pathway.
@@ -116,4 +116,5 @@ Conceptually:
 But return to EMAH means return to governed participation.
 
 It does not mean bypass of EMAH authority or admissibility.
+
 

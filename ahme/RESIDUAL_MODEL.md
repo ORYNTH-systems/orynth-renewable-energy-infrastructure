@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-08-P01 / CANDIDATE**
+**EMAH-ARCH-08 / ACCEPTED**
 
 ---
 
@@ -80,4 +80,5 @@ Therefore:
 **Residual Present != Requalified**
 
 **Residual Present != Reintegrated**
+
 

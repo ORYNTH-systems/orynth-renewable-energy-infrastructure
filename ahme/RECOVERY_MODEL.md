@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-08-P01 / CANDIDATE**
+**EMAH-ARCH-08 / ACCEPTED**
 
 ---
 
@@ -88,4 +88,5 @@ Therefore:
 **REC_RECOVERED != AUTH_VALID**
 
 **REC_RECOVERED != ADM_ADMISSIBLE**
+
 

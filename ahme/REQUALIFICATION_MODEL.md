@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-08-P01 / CANDIDATE**
+**EMAH-ARCH-08 / ACCEPTED**
 
 Requalification determines whether recovered energy or capacity satisfies the
 requirements relevant to renewed participation.
@@ -64,4 +64,5 @@ Such qualification does not create persistent physical energy identity.
 Therefore:
 
 **Requalification != Persistent Physical Identity**
+
 

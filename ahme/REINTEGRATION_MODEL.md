@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-08-P01 / CANDIDATE**
+**EMAH-ARCH-08 / ACCEPTED**
 
 Reintegration represents governed return of requalified energy or capacity
 into a declared EMAH energy-system context.
@@ -69,4 +69,5 @@ Reintegration must not erase the prior residual/recovery chain.
 Therefore:
 
 **Reintegration != Historical Reset**
+
 

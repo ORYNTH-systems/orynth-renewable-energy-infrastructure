@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-08-P01 / CANDIDATE**
+**EMAH-ARCH-08 / ACCEPTED**
 
 AHME governs the regenerative-return domain within EMAH.
 
@@ -134,4 +134,5 @@ It does not define complete evidence and provenance requirements.
 Those remain reserved for:
 
 **EMAH-ARCH-09 — Evidence + Provenance**
+
 
