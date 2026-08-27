@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-06-P01 / CANDIDATE**
+**EMAH-ARCH-06 / ACCEPTED ADMISSIBILITY MODEL**
 
 This record defines EMAH's binding to current transition admissibility.
 
@@ -214,4 +214,5 @@ or reconciled against consequential physical effect.
 Those semantics remain reserved for:
 
 **EMAH-ARCH-07 — Consequential Execution + Partial Effect**
+
 

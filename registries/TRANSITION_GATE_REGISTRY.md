@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-06-P01 / CANDIDATE**
+**EMAH-ARCH-06 / ACCEPTED**
 
 | Gate | Question | Semantic Basis | Required Outcome |
 |---|---|---|---|
@@ -32,4 +32,5 @@ Therefore:
 **Gate Pass != Execution**
 
 **Gate Pass != Consequential Effect**
+
 

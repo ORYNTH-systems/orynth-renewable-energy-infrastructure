@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-06-P01 / CANDIDATE**
+**EMAH-ARCH-06 / ACCEPTED**
 
 ## Envelope
 
@@ -60,4 +60,5 @@ Therefore:
 **Authority Valid != Admissible**
 
 **Admissible != Executed**
+
 

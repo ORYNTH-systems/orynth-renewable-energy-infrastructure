@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-06-P01 / CANDIDATE**
+**EMAH-ARCH-06 / ACCEPTED AUTHORITY BINDING**
 
 This record defines how an EMAH governed transition instance references
 upstream execution authority.
@@ -250,4 +250,5 @@ for execution.
 A transition instance must separately satisfy current admissibility.
 
 Consequential execution semantics remain reserved for EMAH-ARCH-07.
+
 

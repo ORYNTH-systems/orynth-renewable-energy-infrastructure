@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-06-P01 / CANDIDATE**
+**EMAH-ARCH-06 / ACCEPTED**
 
 ## Purpose
 
@@ -103,4 +103,5 @@ Reconciliation does not itself execute or block a physical command.
 
 Execution-boundary enforcement remains reserved for ARCH-07 and upstream
 UAA semantics.
+
 
