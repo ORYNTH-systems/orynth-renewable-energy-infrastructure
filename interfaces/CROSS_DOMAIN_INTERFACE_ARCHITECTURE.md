@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 This architecture defines explicit interfaces between EMAH / AHME and other
 ORYNTH architectures.
@@ -176,4 +176,5 @@ ARCH-11 establishes interface architecture only.
 Invariant synthesis remains reserved for:
 
 **EMAH-ARCH-12 — Invariants**
+
 

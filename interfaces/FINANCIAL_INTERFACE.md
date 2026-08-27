@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 ## External Owner
 
@@ -60,4 +60,5 @@ result.
 ## Ownership Rule
 
 Interface exchange does not transfer semantic ownership.
+
 

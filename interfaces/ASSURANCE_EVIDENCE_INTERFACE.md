@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 This interface covers evidence, audit, integrity-assessment, and assurance
 surfaces without elevating any draft or layer-specific record into generic
@@ -51,4 +51,5 @@ Therefore:
 ## Ownership Rule
 
 EMAH does not infer generic semantic ownership from an assurance interface.
+
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 | ID | External Architecture | External Semantic Ownership | EMAH / AHME Interface Purpose |
 |---|---|---|---|
@@ -23,3 +23,4 @@
 **Interface != Inheritance != Ownership**
 
 No registry entry transfers semantic ownership.
+

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 ## External Owner
 
@@ -39,4 +39,5 @@ EMAH may bind Proof of Block evidence to:
 ## Ownership Rule
 
 EMAH does not redefine Proof of Block.
+
 

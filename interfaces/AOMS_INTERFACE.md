@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 ## External Owner
 
@@ -37,4 +37,5 @@ Only material coordinates are required for a particular transition.
 ## Ownership Rule
 
 EMAH does not redefine AOMS current-state reconciliation.
+
 

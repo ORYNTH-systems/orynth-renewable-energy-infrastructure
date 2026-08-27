@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 ## External Owner
 
@@ -48,4 +48,5 @@ It does not automatically:
 ## Ownership Rule
 
 AHME does not redefine IPT preservation or recoverability semantics.
+
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 ## External Owner
 
@@ -57,4 +57,5 @@ EMAH may consume or preserve authority-reference results such as:
 ## Ownership Rule
 
 EMAH does not redefine generic UAA authority.
+
 

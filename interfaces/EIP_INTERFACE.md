@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-11-P01 / CANDIDATE**
+**EMAH-ARCH-11 / ACCEPTED**
 
 ## External Owner
 
@@ -31,4 +31,5 @@ EMAH supplies energy-domain transition context.
 ## Ownership Rule
 
 EMAH does not redefine generic EIP continuity semantics.
+
 
