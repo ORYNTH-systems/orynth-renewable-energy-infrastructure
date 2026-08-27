@@ -18,9 +18,9 @@ The architecture is being developed repository-first. Technical papers, formal c
 | Inherited ORYNTH Architecture | ACCEPTED |
 | Canonical Ontology | ACCEPTED |
 | Multi-Dimensional State Model | ACCEPTED |
-| Lifecycle | ACTIVE / UNDER REVIEW |
-| Authority Model | NOT YET AUTHORIZED |
-| Admissibility Model | NOT YET AUTHORIZED |
+| Lifecycle | ACCEPTED |
+| Authority Model | AUTHORIZED TO BEGIN |
+| Admissibility Model | AUTHORIZED TO BEGIN |
 | Consequential Execution | NOT YET AUTHORIZED |
 | AHME Recovery Architecture | NOT YET AUTHORIZED |
 | Evidence Architecture | NOT YET AUTHORIZED |
@@ -60,6 +60,7 @@ Explicit admission is required.
 ---
 
 ORYNTH Systems
+
 
 
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-05-P01 / CANDIDATE STRUCTURAL LIFECYCLE**
+**EMAH-ARCH-05 / ACCEPTED ENERGY LIFECYCLE**
 
 This document defines the candidate structural lifecycle and transition
 grammar for EMAH.
@@ -479,4 +479,5 @@ That architecture belongs to:
 **EMAH-ARCH-06 — Authority + Admissibility Architecture**
 
 ARCH-05 acceptance shall not pre-accept ARCH-06 findings.
+
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-05-P01 / CANDIDATE**
+**EMAH-ARCH-05 / ACCEPTED**
 
 This registry identifies transitions that P01 explicitly does not admit.
 
@@ -81,4 +81,5 @@ No transition becomes structurally or operationally valid solely because:
 
 These objects and states cannot substitute for the required transition
 structure.
+
 

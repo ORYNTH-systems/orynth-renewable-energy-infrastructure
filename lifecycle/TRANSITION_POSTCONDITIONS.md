@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-05-P01 / CANDIDATE STRUCTURAL POSTCONDITIONS**
+**EMAH-ARCH-05 / ACCEPTED STRUCTURAL POSTCONDITIONS**
 
 ---
 
@@ -106,4 +106,5 @@ The prior state shall remain reconstructable as historical state where
 required by later evidence architecture.
 
 A new state does not erase the prior state.
+
 

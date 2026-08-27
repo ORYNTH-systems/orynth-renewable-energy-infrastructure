@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-05-P01 / CANDIDATE STRUCTURAL PRECONDITIONS**
+**EMAH-ARCH-05 / ACCEPTED STRUCTURAL PRECONDITIONS**
 
 These are structural preconditions only.
 
@@ -132,4 +132,5 @@ Recovery state shall not silently create physical availability.
 
 Any AHME return path remains subject to EMAH-ARCH-08 and subsequent
 admission architecture.
+
 
