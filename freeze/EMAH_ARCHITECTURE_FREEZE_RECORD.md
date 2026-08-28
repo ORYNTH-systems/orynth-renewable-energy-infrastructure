@@ -1,6 +1,6 @@
 ﻿# EMAH-ARCH-18 — Architecture Freeze Record
 
-Status: **EMAH-ARCH-18-P01 / FREEZE CANDIDATE**
+Status: **EMAH-ARCH-18 / FROZEN**
 
 ## Frozen Source Baseline
 
@@ -41,7 +41,7 @@ EMAH-ARCH-00 — ESTABLISHED
 
 EMAH-ARCH-01 through EMAH-ARCH-17 — ACCEPTED
 
-EMAH-ARCH-18 — SUBMITTED FOR FREEZE ACCEPTANCE REVIEW
+EMAH-ARCH-18 — FROZEN
 
 The following states are intentionally not promoted by this freeze candidate:
 
@@ -76,3 +76,4 @@ The proposed final freeze tag is:
 emah-architecture-v0.1.0-freeze
 
 No freeze tag is created by EMAH-ARCH-18-P01.
+

@@ -65,5 +65,6 @@ ORYNTH Systems
 
 | Item | Status |
 | --- | --- |
-| Architecture Freeze | FREEZE CANDIDATE / UNDER REVIEW |
+| Architecture Freeze | FROZEN |
+
 
