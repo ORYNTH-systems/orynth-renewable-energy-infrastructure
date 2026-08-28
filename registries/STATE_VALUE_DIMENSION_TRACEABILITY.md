@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-17-P02 / CANDIDATE**
+**EMAH-ARCH-17 / ACCEPTED**
 
 Every accepted state value is bound to exactly one admitted state dimension.
 
@@ -27,3 +27,4 @@ Every accepted state value is bound to exactly one admitted state dimension.
 **State Value Exists != State Value Correctly Bound**
 
 BOUND records structural dimension membership only.
+

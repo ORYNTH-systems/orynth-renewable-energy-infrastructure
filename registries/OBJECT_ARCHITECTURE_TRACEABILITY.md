@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-17-P02 / CANDIDATE**
+**EMAH-ARCH-17 / ACCEPTED**
 
 This registry records the architectural binding of each canonical object type.
 
@@ -54,3 +54,4 @@ Every canonical object must have an admitted architectural basis.
 BOUND means a declared architectural source exists.
 
 It does not mean the object is implemented, instantiated, or proven correct.
+

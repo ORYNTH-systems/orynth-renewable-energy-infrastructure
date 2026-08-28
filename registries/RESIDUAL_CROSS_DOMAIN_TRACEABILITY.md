@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-17-P02 / CANDIDATE**
+**EMAH-ARCH-17 / ACCEPTED**
 
 This registry preserves the non-collapse of residual semantics.
 
@@ -33,4 +33,5 @@ Financial residual semantics remain externally owned by Financial
 Infrastructure / UES.
 
 **External Ownership != Orphan**
+
 

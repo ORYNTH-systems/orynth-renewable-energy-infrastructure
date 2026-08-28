@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-17-P02 / CANDIDATE**
+**EMAH-ARCH-17 / ACCEPTED**
 
 ARCH-06 defines transition-gate families.
 
@@ -44,3 +44,4 @@ Every admitted transition gate derives from ARCH-06 authority/admissibility
 architecture.
 
 **Gate Presence != Transition Authorization**
+

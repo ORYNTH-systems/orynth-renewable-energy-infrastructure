@@ -2,7 +2,7 @@
 
 ## Status
 
-**EMAH-ARCH-17-P02 / CANDIDATE**
+**EMAH-ARCH-17 / ACCEPTED**
 
 | Interface | External Semantic Owner | Bounded Role | Ownership Status |
 |---|---|---|---|
@@ -25,3 +25,4 @@
 **External Ownership != Orphan**
 
 No interface transfers canonical semantic ownership into EMAH.
+
