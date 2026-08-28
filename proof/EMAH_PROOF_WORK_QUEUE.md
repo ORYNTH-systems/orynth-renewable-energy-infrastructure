@@ -1,0 +1,94 @@
+﻿# EMAH / AHME Proof Work Queue
+
+Status: **EMAH-PROOF-00-P01 / CANDIDATE**
+
+Frozen architecture: `emah-architecture-v0.1.0-freeze`
+
+All entries remain **OPEN**.
+
+Queue order establishes work sequencing only.
+
+**Priority != Proof Strength != Semantic Importance**
+
+| Priority | Proof Obligation | Family | Frozen Status | Program State |
+| ---: | --- | --- | --- | --- |
+| 1 | EMAH-PO-AUTH-001 | AUTH | OPEN | NOT STARTED |
+| 1 | EMAH-PO-AUTH-002 | AUTH | OPEN | NOT STARTED |
+| 1 | EMAH-PO-AUTH-003 | AUTH | OPEN | NOT STARTED |
+| 1 | EMAH-PO-AUTH-004 | AUTH | OPEN | NOT STARTED |
+| 1 | EMAH-PO-AUTH-005 | AUTH | OPEN | NOT STARTED |
+| 1 | EMAH-PO-AUTH-006 | AUTH | OPEN | NOT STARTED |
+| 1 | EMAH-PO-AUTH-007 | AUTH | OPEN | NOT STARTED |
+| 1 | EMAH-PO-AUTH-008 | AUTH | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-001 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-002 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-003 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-004 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-005 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-006 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-007 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-008 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-009 | EXE | OPEN | NOT STARTED |
+| 2 | EMAH-PO-EXE-010 | EXE | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-001 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-002 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-003 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-004 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-005 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-006 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-007 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-008 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-009 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-010 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-011 | REC | OPEN | NOT STARTED |
+| 3 | EMAH-PO-REC-012 | REC | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-001 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-002 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-003 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-004 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-005 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-006 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-007 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-008 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-009 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-010 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-011 | EVD | OPEN | NOT STARTED |
+| 4 | EMAH-PO-EVD-012 | EVD | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-001 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-002 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-003 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-004 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-005 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-006 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-007 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-008 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-009 | OBL | OPEN | NOT STARTED |
+| 5 | EMAH-PO-OBL-010 | OBL | OPEN | NOT STARTED |
+| 6 | EMAH-PO-INT-001 | INT | OPEN | NOT STARTED |
+| 6 | EMAH-PO-INT-002 | INT | OPEN | NOT STARTED |
+| 6 | EMAH-PO-INT-003 | INT | OPEN | NOT STARTED |
+| 6 | EMAH-PO-INT-004 | INT | OPEN | NOT STARTED |
+| 6 | EMAH-PO-INT-005 | INT | OPEN | NOT STARTED |
+| 7 | EMAH-PO-FIN-001 | FIN | OPEN | NOT STARTED |
+| 7 | EMAH-PO-FIN-002 | FIN | OPEN | NOT STARTED |
+| 7 | EMAH-PO-FIN-003 | FIN | OPEN | NOT STARTED |
+| 7 | EMAH-PO-FIN-004 | FIN | OPEN | NOT STARTED |
+| 7 | EMAH-PO-FIN-005 | FIN | OPEN | NOT STARTED |
+| 7 | EMAH-PO-FIN-006 | FIN | OPEN | NOT STARTED |
+| 7 | EMAH-PO-FIN-007 | FIN | OPEN | NOT STARTED |
+| 7 | EMAH-PO-FIN-008 | FIN | OPEN | NOT STARTED |
+
+## Initial Family Sequence
+
+1. AUTH — Authority
+2. EXE — Execution / Effect
+3. REC — Recovery / Return
+4. EVD — Evidence / Provenance
+5. OBL — Obligation
+6. INT — Cross-Domain Interface
+7. FIN — Physical / Financial Separation
+
+The family sequence may be revised by an explicit proof-program control
+record without changing the frozen architecture.
+
+No obligation is discharged by inclusion in this queue.
