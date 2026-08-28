@@ -1,6 +1,6 @@
 ﻿# EMAH / AHME Proof Program Charter
 
-Status: **EMAH-PROOF-00-P01 / WORKING PROGRAM CANDIDATE**
+Status: **EMAH-PROOF-00 / ACCEPTED**
 
 ## Purpose
 
@@ -113,3 +113,4 @@ Any semantic defect discovered in the frozen architecture must be handled
 through the post-freeze amendment boundary.
 
 The proof program itself may not silently repair the frozen architecture.
+

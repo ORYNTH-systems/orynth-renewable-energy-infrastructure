@@ -1,6 +1,6 @@
 ﻿# EMAH / AHME Proof Work Queue
 
-Status: **EMAH-PROOF-00-P01 / CANDIDATE**
+Status: **EMAH-PROOF-00 / ACCEPTED WORK QUEUE**
 
 Frozen architecture: `emah-architecture-v0.1.0-freeze`
 
@@ -92,3 +92,4 @@ The family sequence may be revised by an explicit proof-program control
 record without changing the frozen architecture.
 
 No obligation is discharged by inclusion in this queue.
+

@@ -1,6 +1,6 @@
 ﻿# EMAH-PROOF-00 — Frozen Architecture Binding
 
-Status: **BOUND CANDIDATE / NOT YET ACCEPTED**
+Status: **BOUND / ACCEPTED**
 
 ## Architecture Baseline
 
@@ -53,3 +53,4 @@ emah-architecture-v0.1.0-freeze
 
 Results established against another architecture version do not automatically
 transfer to this frozen baseline.
+
