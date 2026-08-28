@@ -61,33 +61,9 @@ Explicit admission is required.
 
 ORYNTH Systems
 
+## Architecture Freeze
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Item | Status |
+| --- | --- |
+| Architecture Freeze | FREEZE CANDIDATE / UNDER REVIEW |
 
