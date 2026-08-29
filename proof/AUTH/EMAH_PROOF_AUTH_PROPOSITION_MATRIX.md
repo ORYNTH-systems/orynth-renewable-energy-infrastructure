@@ -1,102 +1,41 @@
 ﻿# EMAH / AHME AUTH Proposition Matrix
 
-Status: **EMAH-PROOF-AUTH-01-P01 / CANDIDATE**
+Status: **EMAH-PROOF-AUTH-01 / PROPOSITIONS ADJUDICATED**
 
-All proof obligations remain **OPEN**.
+Frozen architecture: `emah-architecture-v0.1.0-freeze`
 
-| Proof Obligation | Frozen Invariant | Proof Status | Analysis State |
+## Governing Interpretation
+
+The frozen operator `!=` is preserved exactly.
+
+For proof adjudication it is treated as an architectural non-collapse
+and separability requirement:
+
+1. the left-hand condition must not itself constitute the right-hand condition;
+2. the left-hand condition must not be sufficient, by itself, to establish
+   the right-hand condition; and
+3. an architecture-admitted witness state must be constructible in which
+   the left side holds while the right side is absent, false, invalid,
+   unresolved, or otherwise independently determined.
+
+This interpretation does not rewrite the frozen invariant.
+
+| Proof Obligation | Frozen Invariant | Adjudication | Proof Status |
 | --- | --- | --- | --- |
-| EMAH-PO-AUTH-001 | EMAH-INV-AUTH-001 | OPEN | NOT STARTED |
-| EMAH-PO-AUTH-002 | EMAH-INV-AUTH-002 | OPEN | NOT STARTED |
-| EMAH-PO-AUTH-003 | EMAH-INV-AUTH-003 | OPEN | NOT STARTED |
-| EMAH-PO-AUTH-004 | EMAH-INV-AUTH-004 | OPEN | NOT STARTED |
-| EMAH-PO-AUTH-005 | EMAH-INV-AUTH-005 | OPEN | NOT STARTED |
-| EMAH-PO-AUTH-006 | EMAH-INV-AUTH-006 | OPEN | NOT STARTED |
-| EMAH-PO-AUTH-007 | EMAH-INV-AUTH-007 | OPEN | NOT STARTED |
-| EMAH-PO-AUTH-008 | EMAH-INV-AUTH-008 | OPEN | NOT STARTED |
+| EMAH-PO-AUTH-001 | EMAH-INV-AUTH-001 | PROOF-READY | OPEN |
+| EMAH-PO-AUTH-002 | EMAH-INV-AUTH-002 | PROOF-READY | OPEN |
+| EMAH-PO-AUTH-003 | EMAH-INV-AUTH-003 | PROOF-READY | OPEN |
+| EMAH-PO-AUTH-004 | EMAH-INV-AUTH-004 | PROOF-READY | OPEN |
+| EMAH-PO-AUTH-005 | EMAH-INV-AUTH-005 | PROOF-READY | OPEN |
+| EMAH-PO-AUTH-006 | EMAH-INV-AUTH-006 | PROOF-READY | OPEN |
+| EMAH-PO-AUTH-007 | EMAH-INV-AUTH-007 | PROOF-READY / CROSS-FAMILY OVERLAP | OPEN |
+| EMAH-PO-AUTH-008 | EMAH-INV-AUTH-008 | PROOF-READY / CROSS-FAMILY OVERLAP | OPEN |
 
-## Frozen Source Rows
+## Cross-Family Notes
 
-The rows below are copied for inspection only.
-The canonical source remains the frozen registries.
+- AUTH-007 overlaps the evidence-family authority firewall.
+  The overlap is preserved; it is not treated as semantic collapse.
+- AUTH-008 overlaps the obligation-family authority firewall.
+  The overlap is preserved; it is not treated as semantic collapse.
 
-### EMAH-PO-AUTH-001
-
-Proof registry row:
-
-| EMAH-PO-AUTH-001 | EMAH-INV-AUTH-001 | AUTH | Capability != Authority | OPEN |
-
-Invariant registry row:
-
-| EMAH-INV-AUTH-001 | AUTH | Capability != Authority |
-
-### EMAH-PO-AUTH-002
-
-Proof registry row:
-
-| EMAH-PO-AUTH-002 | EMAH-INV-AUTH-002 | AUTH | Authority != Admissibility | OPEN |
-
-Invariant registry row:
-
-| EMAH-INV-AUTH-002 | AUTH | Authority != Admissibility |
-
-### EMAH-PO-AUTH-003
-
-Proof registry row:
-
-| EMAH-PO-AUTH-003 | EMAH-INV-AUTH-003 | AUTH | Prior Authority != Current Execution Authority | OPEN |
-
-Invariant registry row:
-
-| EMAH-INV-AUTH-003 | AUTH | Prior Authority != Current Execution Authority |
-
-### EMAH-PO-AUTH-004
-
-Proof registry row:
-
-| EMAH-PO-AUTH-004 | EMAH-INV-AUTH-004 | AUTH | Prior Authorization != Present Execution Eligibility | OPEN |
-
-Invariant registry row:
-
-| EMAH-INV-AUTH-004 | AUTH | Prior Authorization != Present Execution Eligibility |
-
-### EMAH-PO-AUTH-005
-
-Proof registry row:
-
-| EMAH-PO-AUTH-005 | EMAH-INV-AUTH-005 | AUTH | Credential Possession != Authority | OPEN |
-
-Invariant registry row:
-
-| EMAH-INV-AUTH-005 | AUTH | Credential Possession != Authority |
-
-### EMAH-PO-AUTH-006
-
-Proof registry row:
-
-| EMAH-PO-AUTH-006 | EMAH-INV-AUTH-006 | AUTH | Physical Availability != Authority | OPEN |
-
-Invariant registry row:
-
-| EMAH-INV-AUTH-006 | AUTH | Physical Availability != Authority |
-
-### EMAH-PO-AUTH-007
-
-Proof registry row:
-
-| EMAH-PO-AUTH-007 | EMAH-INV-AUTH-007 | AUTH | Evidence != Authority | OPEN |
-
-Invariant registry row:
-
-| EMAH-INV-AUTH-007 | AUTH | Evidence != Authority |
-
-### EMAH-PO-AUTH-008
-
-Proof registry row:
-
-| EMAH-PO-AUTH-008 | EMAH-INV-AUTH-008 | AUTH | Obligation != Authority | OPEN |
-
-Invariant registry row:
-
-| EMAH-INV-AUTH-008 | AUTH | Obligation != Authority |
-
+No frozen proposition was amended by this adjudication.
