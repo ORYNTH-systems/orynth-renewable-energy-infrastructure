@@ -1,6 +1,6 @@
 ﻿# EMAH / AHME AUTH Proof Method Plan
 
-Status: **EMAH-PROOF-AUTH-01 / METHODS ASSIGNED — NOT EXECUTED**
+Status: **EMAH-PROOF-AUTH-02-P01 / WITNESSES CONSTRUCTED — NOT ADJUDICATED**
 
 Method assignment does not discharge a proof obligation.
 
@@ -67,3 +67,4 @@ It does not automatically establish:
 **Witness Constructed != Proof Accepted**
 
 **Bounded Architectural Proof != Runtime Proof**
+
