@@ -1,6 +1,6 @@
 ﻿# EMAH-AUTH-WIT-003 — AUTH Separation Witness
 
-Status: **CANDIDATE / NOT YET ADJUDICATED**
+Status: **REPAIRED CANDIDATE / NOT YET RE-ADJUDICATED**
 
 ## Bound Proof Obligation
 
@@ -16,50 +16,62 @@ Prior Authority != Current Execution Authority
 
 TEMPORAL SEPARATION
 
-## Left-Hand Condition
+## Temporal Witness
 
-A valid authority relation existed at an earlier time.
+### t0 — Prior State
 
-## Right-Hand Non-Establishment
+AUTH_VALID
 
-Current execution authority is not established at the later execution boundary.
+The authority relation is valid within its applicable temporal boundary.
 
-## Architecture-Admitted State
+### t1 — Current Execution Boundary
 
 AUTH_EXPIRED
 
+The prior authority relation no longer satisfies the current temporal
+authority condition.
+
 ## Separation Claim
 
-Prior validity can coexist with present expiration.
+A valid authority relation at t0 does not itself establish current execution
+authority at t1.
+
+## Frozen Support
+
+The frozen authority envelope contains a temporal_bound.
+
+The frozen authority model requires authority to remain within temporal scope
+and explicitly preserves:
+
+Prior Authority != Current Execution Authority
 
 ## External Ownership / Dependency
 
-UAA authority + EIP continuity
+UAA owns generic execution authority.
+
+EIP owns execution-time continuity semantics where applicable.
 
 ## Candidate Proof Form
 
-Let L denote the left-hand condition and R the right-hand authority condition.
+Let A(t0) = AUTH_VALID.
 
-The witness proposes an architecture-admitted state W such that:
+Let A(t1) = AUTH_EXPIRED.
 
-L(W) = true
+Let t1 lie outside the authority temporal_bound applicable at t0.
+
+Then:
+
+PriorAuthority(t0) = true
 
 while:
 
-R(W) != established
+CurrentExecutionAuthority(t1) != established
 
-Therefore the presence of L alone is insufficient to constitute or establish R.
-
-This is a candidate bounded architectural separation witness.
+Therefore prior validity is insufficient for current execution authority.
 
 ## Boundary
 
-This artifact does not itself discharge EMAH-PO-AUTH-003.
+This repaired witness does not claim that all authority expiration semantics
+are owned by EMAH.
 
-Witness Constructed != Witness Accepted
-
-Witness Accepted != Global Proof
-
-Architectural Separation != Runtime Enforcement
-
-Frozen Architecture != Implementation
+This repaired witness does not discharge EMAH-PO-AUTH-003.

@@ -1,6 +1,6 @@
 ﻿# EMAH-AUTH-WIT-005 — AUTH Separation Witness
 
-Status: **CANDIDATE / NOT YET ADJUDICATED**
+Status: **REPAIRED CANDIDATE / UAA-DEPENDENT / NOT YET RE-ADJUDICATED**
 
 ## Bound Proof Obligation
 
@@ -14,52 +14,68 @@ Credential Possession != Authority
 
 ## Witness Class
 
-CONSTRUCTIVE SEPARATION
+EXTERNAL-PREMISE / AUTHORITY-RESULT SEPARATION
 
-## Left-Hand Condition
+## External Premise
 
-A credential, key, token, or equivalent authority-related artifact is possessed.
+UAA-supplied premise:
 
-## Right-Hand Non-Establishment
+CredentialPossessed = true
 
-Valid governing authority is not thereby established.
+The credential, key, token, or equivalent authority-related artifact remains
+in the possession of the presenting subject.
 
-## Architecture-Admitted State
+## EMAH-Observed Authority Result
 
 AUTH_REVOKED
 
 ## Separation Claim
 
-Credential possession can persist after the authority it once supported has been revoked.
+Continued credential possession does not restore or constitute valid
+authority after the authority relation has been revoked.
 
-## External Ownership / Dependency
+## Frozen Support
 
-UAA authority binding / revocation
+The frozen architecture explicitly preserves:
+
+Possession of Credential != Authority
+
+Possession of Key != Authority
+
+The frozen architecture also includes AUTH_REVOKED as an authority-reference
+state.
+
+## Ownership Boundary
+
+Credential semantics are not silently canonized as an EMAH-owned state
+dimension.
+
+Credential possession is an explicit inherited/external UAA premise.
+
+EMAH consumes the resulting authority status.
 
 ## Candidate Proof Form
 
-Let L denote the left-hand condition and R the right-hand authority condition.
+Let C := CredentialPossessed.
 
-The witness proposes an architecture-admitted state W such that:
+Assume:
 
-L(W) = true
+C = true
 
-while:
+and:
 
-R(W) != established
+authority_state = AUTH_REVOKED
 
-Therefore the presence of L alone is insufficient to constitute or establish R.
+Then valid authority is not established despite possession of the credential.
 
-This is a candidate bounded architectural separation witness.
+Therefore:
+
+CredentialPossession does not imply AUTH_VALID.
 
 ## Boundary
 
-This artifact does not itself discharge EMAH-PO-AUTH-005.
+External Premise != EMAH-Owned Primitive
 
-Witness Constructed != Witness Accepted
+Credential Possession != Authority
 
-Witness Accepted != Global Proof
-
-Architectural Separation != Runtime Enforcement
-
-Frozen Architecture != Implementation
+This repaired witness does not discharge EMAH-PO-AUTH-005.

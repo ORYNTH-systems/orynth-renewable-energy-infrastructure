@@ -1,6 +1,6 @@
 ﻿# EMAH-AUTH-WIT-007 — AUTH Separation Witness
 
-Status: **CANDIDATE / NOT YET ADJUDICATED**
+Status: **REPAIRED CANDIDATE / NOT YET RE-ADJUDICATED**
 
 ## Bound Proof Obligation
 
@@ -14,7 +14,7 @@ Evidence != Authority
 
 ## Witness Class
 
-TYPE-BOUNDARY SEPARATION
+EVIDENCE / AUTHORITY TYPE-BOUNDARY SEPARATION
 
 ## Left-Hand Condition
 
@@ -22,44 +22,56 @@ Authority-related evidence is present.
 
 ## Right-Hand Non-Establishment
 
-Authority itself is not thereby established.
+Valid authority remains independently unresolved or disputed.
 
 ## Architecture-Admitted State
 
-AUTH_DISPUTED
+EVD_PRESENT + AUTH_DISPUTED
 
 ## Separation Claim
 
-Evidence can exist while the authority determination remains disputed.
+Evidence may exist while the authority determination remains disputed.
 
-## External Ownership / Dependency
+## Frozen Support
 
-EMAH evidence architecture + UAA authority
+The frozen architecture explicitly provides:
+
+EVD_PRESENT
+
+AUTH_DISPUTED
+
+and states:
+
+EVD_PRESENT does not imply AUTH_VALID.
+
+The evidence architecture separately preserves:
+
+Authority Evidence != Authority
 
 ## Candidate Proof Form
 
-Let L denote the left-hand condition and R the right-hand authority condition.
+Let E(W) := EVD_PRESENT.
 
-The witness proposes an architecture-admitted state W such that:
+Let A(W) := AUTH_VALID.
 
-L(W) = true
+Construct W such that:
+
+E(W) = true
 
 while:
 
-R(W) != established
+authority_state(W) = AUTH_DISPUTED
 
-Therefore the presence of L alone is insufficient to constitute or establish R.
+Therefore:
 
-This is a candidate bounded architectural separation witness.
+E(W) does not imply A(W).
+
+Both sides of the separation are explicitly instantiated.
 
 ## Boundary
 
-This artifact does not itself discharge EMAH-PO-AUTH-007.
+Evidence Present != Authority Established
 
-Witness Constructed != Witness Accepted
+Witness Repaired != Witness Accepted
 
-Witness Accepted != Global Proof
-
-Architectural Separation != Runtime Enforcement
-
-Frozen Architecture != Implementation
+This repaired witness does not discharge EMAH-PO-AUTH-007.

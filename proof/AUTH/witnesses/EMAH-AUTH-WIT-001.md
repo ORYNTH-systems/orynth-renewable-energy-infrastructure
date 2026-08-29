@@ -1,6 +1,6 @@
 ﻿# EMAH-AUTH-WIT-001 — AUTH Separation Witness
 
-Status: **CANDIDATE / NOT YET ADJUDICATED**
+Status: **REPAIRED CANDIDATE / NOT YET RE-ADJUDICATED**
 
 ## Bound Proof Obligation
 
@@ -14,52 +14,61 @@ Capability != Authority
 
 ## Witness Class
 
-CONSTRUCTIVE SEPARATION
+CONSTRUCTIVE / CROSS-DIMENSIONAL SEPARATION
 
 ## Left-Hand Condition
 
-A subject or interface is technically capable of presenting or causing an execution attempt.
+The governed system is command-capable.
 
 ## Right-Hand Non-Establishment
 
-Authority is not thereby established.
+Valid authority is not thereby established.
 
 ## Architecture-Admitted State
 
-AUTH_UNRESOLVED
+CTL_COMMAND_CAPABLE + AUTH_UNRESOLVED
 
 ## Separation Claim
 
-Technical capability can be present while authority remains unresolved.
+Command capability can be present while valid authority remains unresolved.
+
+## Frozen Support
+
+The frozen architecture states that CTL_COMMAND_CAPABLE does not imply
+AUTH_VALID.
 
 ## External Ownership / Dependency
 
-UAA capability/authority separation
+Generic authority semantics remain owned by UAA.
+
+EMAH supplies the energy-domain control-capability condition and consumes the
+upstream authority result.
 
 ## Candidate Proof Form
 
-Let L denote the left-hand condition and R the right-hand authority condition.
+Let L(W) := CTL_COMMAND_CAPABLE.
 
-The witness proposes an architecture-admitted state W such that:
+Let R(W) := AUTH_VALID.
+
+Construct W such that:
 
 L(W) = true
 
-while:
+and:
 
-R(W) != established
+authority_state(W) = AUTH_UNRESOLVED
 
-Therefore the presence of L alone is insufficient to constitute or establish R.
+Therefore:
 
-This is a candidate bounded architectural separation witness.
+L(W) does not imply R(W).
+
+The capability-side and authority-side conditions are both instantiated in the
+same bounded architecture witness.
 
 ## Boundary
 
-This artifact does not itself discharge EMAH-PO-AUTH-001.
+This repaired witness does not discharge EMAH-PO-AUTH-001.
 
-Witness Constructed != Witness Accepted
-
-Witness Accepted != Global Proof
+Witness Repaired != Witness Accepted
 
 Architectural Separation != Runtime Enforcement
-
-Frozen Architecture != Implementation
