@@ -1,0 +1,20 @@
+﻿scenario_id,parameter,value,unit,status,classification,source_or_rationale,confidence,as_of,notes
+ORC-001-BASELINE,orbit_altitude,,km,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,orbit_inclination,,deg,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,solar_array_net_power,,kW,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,sunlit_duration,,h per orbit,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,eclipse_duration,,h per orbit,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,array_conversion_efficiency,,fraction,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,storage_round_trip_efficiency,,fraction,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,compute_average_power,,kW,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,compute_peak_power,,kW,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,achieved_compute_utilization,,fraction,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,requested_compute_service,,kWh compute per period,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,available_reserve_energy,,kWh,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,required_reserve_energy,,kWh,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,lifecycle_energy_consumed,,kWh,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,useful_compute_service_delivered,,kWh compute,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,retired_hardware_mass,,kg,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,recovered_hardware_mass,,kg,OPEN,UNKNOWN,,,,
+ORC-001-BASELINE,terrestrial_20_GW_objective,,GW,SEPARATE,TERRESTRIAL_OBJECTIVE,,,,"Do not use as an orbital input"
+ORC-001-BASELINE,orbital_deployment_ambition,,GW per year,SEPARATE,COMPANY_STATED_CLAIM,,,,"Record source and date; not verified capacity"
