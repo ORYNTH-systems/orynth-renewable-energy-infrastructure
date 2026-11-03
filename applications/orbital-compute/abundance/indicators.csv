@@ -1,0 +1,15 @@
+indicator_id,name,formula_or_definition,unit,reporting_window,minimum_evidence,state
+ABN-001,solar_sufficiency_ratio,available solar-bus energy divided by planned compute plus support plus losses plus required storage replenishment,ratio,orbit phase and end-of-life case,orbit-resolved array and load model with assumptions,OPEN
+ABN-002,service_fulfillment,validated compute service delivered divided by validated service requested,ratio,workload and reporting interval,workload definition plus telemetry and quality threshold,OPEN
+ABN-003,critical_reserve_coverage,usable stored energy above required reserve divided by critical load power,hours,worst eclipse and fault case,battery limits and critical-load telemetry,OPEN
+ABN-004,power_headroom,available end-of-life bus capacity minus concurrent compute and support load,kW,peak and sustained states,metered or qualified bus and load models,OPEN
+ABN-005,thermal_headroom,verified radiator rejection at current state minus total modeled heat load,kW thermal,peak and sustained states,thermal model correlated to test with environment and surface aging,OPEN
+ABN-006,communications_headroom,available sustained link throughput minus required workload traffic,Gbit/s,route and outage cases,measured link performance and traffic profile,OPEN
+ABN-007,curtailed_solar_energy,available solar energy not captured or used under stated configuration,kWh,orbit interval and annual case,attitude and array model or telemetry,OPEN
+ABN-008,unmet_service,requested validated compute service not delivered,workload-specific units,reporting interval,request ledger and result telemetry,OPEN
+ABN-009,lifecycle_energy_intensity,manufacturing plus launch plus ground support plus operational energy divided by validated useful service,kWh per service unit,lifetime cohort,metered and supplier data with allocation method,OPEN
+ABN-010,material_recovery_fraction,requalified reused plus verified recycled material mass divided by retired recoverable material mass,ratio,retirement cohort,mass balance and chain-of-custody evidence,OPEN
+ABN-011,unrecovered_material_mass,mass retired without verified reuse or recovery,kg,retirement cohort,as-built bill of materials and disposition evidence,OPEN
+ABN-012,terrestrial_burden_transfer,grid energy plus water plus fuel plus attributable manufacturing and launch burden by source,source-specific quantities,manufacturing and lifetime,source and supplier records with allocation method,OPEN
+ABN-013,net_service_capacity_added,validated new service capacity minus capacity lost to degradation outage and retirement,workload-specific units per interval,service telemetry and lifecycle record,OPEN
+ABN-014,abundance_claim_scope,stated boundary time horizon population served and evidence classes,text,each release,approved scope and evidence index,OPEN

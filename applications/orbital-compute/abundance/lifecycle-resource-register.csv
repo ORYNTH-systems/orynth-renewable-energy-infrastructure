@@ -1,0 +1,19 @@
+record_id,resource_or_burden,unit,system_stage,source_or_method,evidence_class,quantity,status,allocation_or_recovery_method,notes
+LCR-001,solar_array_material_mass,kg,manufacture and operation,supplier bill of materials plus flight configuration,unknown,,OPEN,repair reuse recycle or unrecovered mass,Include degradation and replacement cohorts
+LCR-002,battery_material_mass,kg,manufacture and operation,supplier bill of materials plus pack configuration,unknown,,OPEN,cell reuse recycling or unrecovered mass,Include cycle life and thermal control
+LCR-003,compute_hardware_mass,kg,manufacture launch operation,supplier bill of materials plus flight configuration,unknown,,OPEN,repair reuse recycle or unrecovered mass,Record replacement cadence
+LCR-004,radiator_and_thermal_loop_mass,kg,manufacture launch operation,design bill of materials,unknown,,OPEN,repair reuse recycle or unrecovered mass,Include coolant and flexible joints
+LCR-005,launch_delivered_mass,kg,launch,mission manifest and launch records,unknown,,OPEN,not applicable,Separate spacecraft mass from dispenser and deployment hardware
+LCR-006,manufacturing_energy,kWh,manufacture,metered facility energy allocated by documented method,unknown,,OPEN,not applicable,Include solar cells processors batteries radiators and structure
+LCR-007,launch_energy_or_fuel,kg fuel or MJ,launch,provider mission data and documented allocation,unknown,,OPEN,not applicable,Report allocation method and uncertainty
+LCR-008,ground_support_energy,kWh,operation,facility and network energy meters,unknown,,OPEN,not applicable,Include control ground stations and data relay allocation
+LCR-009,terrestrial_grid_draw,kWh,manufacture and operation,metered source-specific energy mix,unknown,,OPEN,not applicable,Do not label onboard solar operation as lifecycle zero-carbon
+LCR-010,water_consumption,m3,manufacture and operation,supplier and facility records,unknown,,OPEN,not applicable,Direct use and attributable supply-chain use
+LCR-011,critical_material_inputs,kg by material,manufacture,supplier declarations and bill of materials,unknown,,OPEN,reuse recovery recycling or unrecovered mass,Keep material identities and provenance
+LCR-012,reused_components,kg and component count,recovery and reintegration,inspection test and requalification record,unknown,,OPEN,reuse rate by material and function,Count only components accepted after test
+LCR-013,recycled_material,kg by material,recovery and end of life,recycler records and chain of custody,unknown,,OPEN,closed-loop or downcycled route,Distinguish actual recovery from planned recovery
+LCR-014,unrecovered_material,kg by material,end of life,mass balance and disposition record,unknown,,OPEN,not applicable,Includes abandoned and inaccessible hardware
+LCR-015,orbital_debris_and_collision_exposure,events probability and residual objects,operation and end of life,orbit safety analysis and tracking data,unknown,,OPEN,avoidance servicing disposal and passivation,No mass-only proxy is sufficient
+LCR-016,thermal_rejection_to_space,kWh thermal or W thermal,operation,validated thermal telemetry and model,unknown,,OPEN,not applicable,Report heat load and radiator state; not an energy source
+LCR-017,compute_service_delivered,workload-specific units,operation,validated workload telemetry,unknown,,OPEN,not applicable,Define quality latency and success criteria
+LCR-018,component_replacement_count,count and kg,maintenance and refresh,flight manifest and maintenance records,unknown,,OPEN,reuse recovery recycling or unrecovered mass,Record reason and changed performance

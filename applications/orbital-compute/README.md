@@ -55,3 +55,11 @@ This package remains PROPOSED until its boundary, target records, obligations, a
 ## Current build state
 
 The first engineering concept is now defined as ORC-001. The public SpaceX AI1 values are comparison inputs only. Interpreting the stated 250 W/m² as effective array output gives a first-order 600 m² for 150 kW. At the stated 1,400 W/m² radiator heat-rejection assumption, 120–150 kW implies about 86–107 m². These are conditional arithmetic screens from company-stated assumptions; auxiliary loads, orbital environment, orientation, degradation, margins, and thermal test correlation remain open.
+
+## Orbit budget
+
+See `orbit-budget/README.md` for candidate-orbit power and thermal screening budgets.
+
+## Abundance measurement layer
+
+See `abundance/README.md` for physical energy, service, reserve, recovery, and lifecycle-burden indicators.

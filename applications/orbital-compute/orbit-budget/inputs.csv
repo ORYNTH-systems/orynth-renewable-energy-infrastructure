@@ -1,0 +1,32 @@
+id,parameter,value,unit,classification,source_or_basis,closure_state
+ORB-PWR-001,orbit_altitude,700,km,analyst_candidate,midpoint screen within SpaceX filed 500-2000 km range,OPEN
+ORB-PWR-002,orbit_type,dawn-dusk sun-synchronous,text,company-described candidate,SpaceX SEC filing describes near-constant solar exposure,OPEN
+ORB-PWR-003,earth_mean_radius,6378.137,km,standard_constant,standard Earth reference value,INPUT
+ORB-PWR-004,earth_mu,398600.4418,km^3/s^2,standard_constant,standard Earth gravitational parameter,INPUT
+ORB-PWR-005,orbital_period,98.773,min,derived,two-body circular orbit at 700 km,SCREENED
+ORB-PWR-006,compute_sustained,120,kW,company-stated comparison,SpaceX AI1 draft transcript,OPEN
+ORB-PWR-007,compute_peak,150,kW,company-stated comparison,SpaceX AI1 draft transcript,OPEN
+ORB-PWR-008,auxiliary_load,0,kW,analyst lower-bound placeholder,Not disclosed; zero only for lower-bound arithmetic,OPEN
+ORB-PWR-009,array_density,250,W/m^2,company-stated assumption,SpaceX AI1 draft transcript; life point/area convention unresolved,OPEN
+ORB-PWR-010,bus_efficiency,0.95,ratio,analyst screening assumption,Replace with power-tree efficiency map,OPEN
+ORB-PWR-011,battery_charge_efficiency,0.95,ratio,analyst screening assumption,Replace with qualified cell and charge-system data,OPEN
+ORB-PWR-012,battery_discharge_efficiency,0.95,ratio,analyst screening assumption,Replace with qualified cell and discharge-system data,OPEN
+ORB-PWR-013,battery_depth_of_discharge,0.80,ratio,analyst screening assumption,Replace with selected battery limits and lifetime case,OPEN
+ORB-PWR-014,array_eol_factor,0.80,ratio,analyst stress assumption,Replace with array radiation/temperature/degradation qualification,OPEN
+ORB-PWR-015,array_reserve_factor,1.20,ratio,analyst screening assumption,Reserve factor for concept sizing only,OPEN
+ORB-PWR-016,beta_zero_eclipse,35.286,min,derived,cylindrical shadow at 700 km and beta 0 degrees,SCREENED
+ORB-PWR-017,beta_zero_sunlit,63.487,min,derived,98.773 minute period minus beta-zero eclipse,SCREENED
+ORB-PWR-018,eclipse_energy_120kw,70.572,kWh,derived,120 kW constant through beta-zero eclipse; zero auxiliary load,SCREENED
+ORB-PWR-019,battery_nominal_120kw,92.858,kWh,derived,80% DOD and 95% discharge efficiency,SCREENED
+ORB-PWR-020,solar_array_area_dawn_dusk_120kw,758,m^2,derived,20% reserve and 20% EOL derate; zero auxiliary load,SCREENED
+ORB-PWR-021,solar_array_area_dawn_dusk_150kw,947,m^2,derived,20% reserve and 20% EOL derate; zero auxiliary load,SCREENED
+ORB-PWR-022,solar_array_area_beta0_120kw,1225,m^2,derived,35.286 minute eclipse; 95% bus/charge/discharge efficiency; 20% reserve and 20% EOL derate,SCREENED
+ORB-PWR-023,solar_array_area_beta0_150kw,1531,m^2,derived,35.286 minute eclipse; 95% bus/charge/discharge efficiency; 20% reserve and 20% EOL derate,SCREENED
+ORB-THM-001,radiator_flux,1400,W/m^2,company-stated assumption,SpaceX AI1 draft transcript; per-face versus panel-footprint convention unresolved,OPEN
+ORB-THM-002,radiator_double_sided,true,boolean,company-stated description,SpaceX AI1 draft transcript,OPEN
+ORB-THM-003,compute_heat_120kw,120,kW,analyst conservative screen,Approximate compute electrical load as heat; auxiliaries/environment excluded,OPEN
+ORB-THM-004,compute_heat_150kw,150,kW,analyst conservative screen,Approximate peak compute electrical load as heat; auxiliaries/environment excluded,OPEN
+ORB-THM-005,radiator_performance_derate,0.80,ratio,analyst stress assumption,Replace with optical-property and thermal test degradation basis,OPEN
+ORB-THM-006,radiator_reserve_factor,1.20,ratio,analyst screening assumption,Reserve factor for concept sizing only,OPEN
+ORB-THM-007,double_sided_panel_area_120kw,64.3,m^2,derived,Per-face flux interpretation with 20% derate and reserve,SCREENED
+ORB-THM-008,double_sided_panel_area_150kw,80.4,m^2,derived,Per-face flux interpretation with 20% derate and reserve,SCREENED
