@@ -87,3 +87,7 @@ See [abundance/lifetime-accounting.md](abundance/lifetime-accounting.md) and its
 ## CEO technical review brief
 
 See [CEO-technical-review-brief.md](CEO-technical-review-brief.md) for the private screening summary and the requested technical review of assumptions and first material constraints.
+
+## Project status and review guide
+
+See [PROJECT-STATUS.md](PROJECT-STATUS.md) for what ORC-001 contains, what the screening work does not establish, its current open inputs, and the next engineering steps.
