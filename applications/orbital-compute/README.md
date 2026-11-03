@@ -83,3 +83,7 @@ See [engineering-validation-package.md](engineering-validation-package.md) for t
 ## Lifetime abundance accounting
 
 See [abundance/lifetime-accounting.md](abundance/lifetime-accounting.md) and its three ledgers for workload service, lifecycle energy, and material flows. All quantities begin `OPEN`; the ledgers require traceable sources and evidence before any lifetime abundance indicator can be calculated or marked verified.
+
+## CEO technical review brief
+
+See [CEO-technical-review-brief.md](CEO-technical-review-brief.md) for the private screening summary and the requested technical review of assumptions and first material constraints.
