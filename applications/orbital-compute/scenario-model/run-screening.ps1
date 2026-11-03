@@ -6,6 +6,7 @@ $ErrorActionPreference = "Stop"
 $steps = @(
     "screen-power-budget.ps1",
     "screen-thermal-budget.ps1",
+    "simulate-orbit-cycle.ps1",
     "evaluate-scenario.ps1",
     "scale-fleet.ps1"
 )
@@ -21,3 +22,4 @@ foreach ($name in $steps) {
 }
 
 Write-Host "`nScreening run complete. Results are screening outputs, not validated flight performance." -ForegroundColor Green
+

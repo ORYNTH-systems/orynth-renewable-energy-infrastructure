@@ -91,3 +91,7 @@ From the repository root, run:
 `.\applications\orbital-compute\scenario-model\run-screening.ps1`
 
 The entry point regenerates power, thermal, abundance-indicator, and fleet-scaling CSV outputs from the scenario inputs. Outputs remain screening estimates; missing lifecycle and service measurements remain `OPEN`.
+
+## Coupled orbit-cycle model
+
+See [`orbit-cycle-model.md`](orbit-cycle-model.md) and [`orbit-cycle-cases.csv`](orbit-cycle-cases.csv) for the planned time-step integration of orbit timing, array power, battery state, compute load, and heat rejection.
