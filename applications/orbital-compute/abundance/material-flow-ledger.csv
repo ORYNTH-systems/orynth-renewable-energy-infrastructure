@@ -1,0 +1,2 @@
+﻿record_id,scenario_id,material_name,material_category,lifecycle_stage,virgin_mass_kg,reused_mass_kg,recovered_mass_kg,recycled_mass_kg,disposed_or_unrecovered_mass_kg,status,classification,system_boundary,source_or_rationale,evidence_reference,notes
+ORC-001-LIFE-MAT-001,ORC-001-BASELINE,,,,,,,,,OPEN,UNKNOWN,OPEN,,,Material inventory and mass-flow evidence not yet supplied

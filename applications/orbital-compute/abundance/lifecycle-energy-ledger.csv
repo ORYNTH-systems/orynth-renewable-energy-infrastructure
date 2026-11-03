@@ -1,0 +1,6 @@
+﻿record_id,scenario_id,lifecycle_stage,energy_source,energy_kwh,period_or_stage_basis,status,classification,system_boundary,source_or_rationale,evidence_reference,notes
+ORC-001-LIFE-ENE-001,ORC-001-BASELINE,manufacturing,,,"per node lifecycle",OPEN,UNKNOWN,OPEN,,,
+ORC-001-LIFE-ENE-002,ORC-001-BASELINE,launch_and_deployment,,,"per node lifecycle",OPEN,UNKNOWN,OPEN,,,
+ORC-001-LIFE-ENE-003,ORC-001-BASELINE,operations,,,"operating interval",OPEN,UNKNOWN,OPEN,,,
+ORC-001-LIFE-ENE-004,ORC-001-BASELINE,maintenance_and_replacement,,,"per node lifecycle",OPEN,UNKNOWN,OPEN,,,
+ORC-001-LIFE-ENE-005,ORC-001-BASELINE,end_of_life_and_recovery,,,"per node lifecycle",OPEN,UNKNOWN,OPEN,,,

@@ -79,3 +79,7 @@ See [`abundance/measurement-contract.md`](abundance/measurement-contract.md) for
 ## Engineering validation package
 
 See [engineering-validation-package.md](engineering-validation-package.md) for the proposed evidence request matrix and closure criteria for ORC-CL-001 through ORC-CL-013. The package identifies review evidence needed from orbital, electrical, solar-array, storage, thermal, compute, communications, lifecycle, launch, manufacturing, and systems engineering. All entries remain requests; they do not represent engineering approval.
+
+## Lifetime abundance accounting
+
+See [abundance/lifetime-accounting.md](abundance/lifetime-accounting.md) and its three ledgers for workload service, lifecycle energy, and material flows. All quantities begin `OPEN`; the ledgers require traceable sources and evidence before any lifetime abundance indicator can be calculated or marked verified.

@@ -1,0 +1,2 @@
+﻿record_id,scenario_id,period_start,period_end,workload_id,service_unit,requested_units,delivered_units,validated_units,status,classification,system_boundary,source_or_rationale,evidence_reference,notes
+ORC-001-LIFE-SVC-001,ORC-001-BASELINE,,,,,,,,OPEN,UNKNOWN,OPEN,,,No workload definition or measured service record entered
