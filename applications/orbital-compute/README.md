@@ -67,3 +67,7 @@ See `abundance/README.md` for physical energy, service, reserve, recovery, and l
 ## Engineering closure register
 
 See [`engineering-closure-register.csv`](engineering-closure-register.csv) for the open evidence and validation items that block closing the ORC-001 screening model.
+
+## Operating envelope and compute dispatch gate
+
+See [`operating-envelope.md`](operating-envelope.md) for the proposed admission, throttle, and block conditions connecting power, storage, thermal limits, and telemetry validity.
