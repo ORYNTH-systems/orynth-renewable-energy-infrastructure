@@ -71,3 +71,7 @@ See [`engineering-closure-register.csv`](engineering-closure-register.csv) for t
 ## Operating envelope and compute dispatch gate
 
 See [`operating-envelope.md`](operating-envelope.md) for the proposed admission, throttle, and block conditions connecting power, storage, thermal limits, and telemetry validity.
+
+## Abundance measurement contract
+
+See [`abundance/measurement-contract.md`](abundance/measurement-contract.md) for the unit, boundary, evidence, and calculation rules for the 14 proposed abundance indicators.
