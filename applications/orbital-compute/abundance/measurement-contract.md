@@ -40,3 +40,7 @@ A kWh of compute electricity is not a unit of completed compute service.
 ## Current evaluator mapping to correct
 
 The current `requested_compute_service` and `useful_compute_service_delivered` fields are labeled in kWh compute. They represent electrical energy quantities, not the workload-specific units required for `ABN-002` or `ABN-009`. Do not use them to report service fulfillment or lifecycle energy per useful service until the scenario schema and evaluator are revised.
+
+## Evaluator outputs
+
+The evaluator labels ratios based on electrical energy or gross hardware mass as screening proxies. It separately emits `ABN-001` through `ABN-014` as `OPEN` until the contract’s required workload, lifecycle, resource, or qualified engineering evidence is available.
