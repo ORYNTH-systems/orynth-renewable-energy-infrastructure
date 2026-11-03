@@ -1,0 +1,5 @@
+﻿scenario_id,node_count,classification,status,notes
+ORC-001-FLEET-1,1,ILLUSTRATIVE_SCALE_CASE,ASSUMPTION,Arithmetic scaling only
+ORC-001-FLEET-10,10,ILLUSTRATIVE_SCALE_CASE,ASSUMPTION,Arithmetic scaling only
+ORC-001-FLEET-100,100,ILLUSTRATIVE_SCALE_CASE,ASSUMPTION,Arithmetic scaling only
+ORC-001-FLEET-1000,1000,ILLUSTRATIVE_SCALE_CASE,ASSUMPTION,Arithmetic scaling only

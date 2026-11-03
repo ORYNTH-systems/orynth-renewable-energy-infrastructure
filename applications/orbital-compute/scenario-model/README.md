@@ -77,3 +77,9 @@ The stress case applies the provisional performance factor and reserve:
 | 150 kW peak | 107.143 m² | 53.571 m² | 160.714 m² | 80.357 m² | 160.714 m² |
 
 All outputs are `SCREENING_ONLY`. These are compute-only heat loads. Auxiliary heat, absorbed solar and Earth flux, operating temperature, emissivity, absorptivity, radiator view factors, and thermal transport losses remain open. The radiator flux area convention is unresolved, and the 20% derate and 20% reserve are analyst assumptions. The results do not establish a flight design.
+
+## Fleet scaling screen
+
+`scale-fleet.ps1` multiplies the 120 kW sustained single-node screening outputs by the illustrative node counts in `fleet-scaling-cases.csv`. It writes `fleet-scaling-results.csv`.
+
+This is linear arithmetic only. It assumes each node has the same screening performance and does not model shared infrastructure, fleet interactions, deployment cadence, launch capacity, replacement, communications, service demand, lifecycle inputs, or operational availability. The 20 GW terrestrial objective is not an orbital target. No annual orbital deployment ambition is treated as verified capacity.
