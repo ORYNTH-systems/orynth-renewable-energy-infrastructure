@@ -24,7 +24,7 @@ The terrestrial 20 GW objective is separate from orbital capacity. Any company-s
 
 The model uses a candidate 700 km circular orbit with a conservative beta-zero timing case of 63.487 minutes sunlit and 35.286 minutes eclipse per 98.773-minute orbit. These are screening inputs, not a selected mission orbit.
 
-For the 120 kW sustained and 150 kW peak-stress cases, the current power screen estimates 204.108 kW and 255.135 kW of array output during sunlight with eclipse recharge, respectively. The corresponding beta-zero screening array areas are approximately 1,224.647 m² and 1,530.808 m². Thermal screens assume compute electrical load becomes heat and use an unresolved radiator area convention.
+For the 120 kW sustained and 150 kW peak-stress cases, the current power screen estimates 204.107 kW and 255.133 kW of array output during sunlight with eclipse recharge, respectively. The corresponding beta-zero screening array areas are approximately 1,224.639 m² and 1,530.799 m². Thermal screens assume compute electrical load becomes heat and use an unresolved radiator area convention.
 
 These results depend on assumptions recorded in the model. Auxiliary load is currently a zero lower-bound placeholder. The orbit-cycle cases remain `OPEN` pending actual array bus output, battery power limits and reserve requirements, radiator rejection capability, and other engineering inputs. Lifetime service, lifecycle energy, and material recovery measurements also remain `OPEN`.
 
@@ -56,4 +56,3 @@ Two radiator flux figures remain unresolved and must not be averaged or treated 
 The current thermal area screen uses 1,400 W/m² and retains two area interpretations. The sensitivity sweep now includes separate 1,200, 1,300, 1,400, and 1,600 W/m² levels. The 1,300 W/m² level reflects the cited post, but its conditions and area convention remain unverified.
 
 The model does not yet derive radiator flux from radiator temperature and emissivity or close Earth/Sun heat loads, orbit-dependent view factors, radiator mass, or heat-transport limits. It therefore does not establish that cooling is easier in space or that the concept is thermally feasible. The skeptical claim that orbital data centers will never happen is also not established by this screening model.
-

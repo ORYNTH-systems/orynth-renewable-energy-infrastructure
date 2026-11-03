@@ -74,5 +74,6 @@ ORYNTH Systems
 
 | Item | Status |
 | --- | --- |
-| Underlying EMAH architecture baseline | FROZEN |\n\nThis freeze status applies to the EMAH architecture baseline; ORC-001 remains a proposed application profile and has no flight qualification.
+| Underlying EMAH architecture baseline | FROZEN |
 
+This freeze status applies to the EMAH architecture baseline; ORC-001 remains a proposed application profile and has no flight qualification.

@@ -81,9 +81,9 @@ foreach ($definition in $sweepDefinitions) {
             domain = $definition.domain
             value = $level.ToString("G", $culture)
             unit = if ($parameter -like "*efficiency" -or $parameter -like "*factor" -or $parameter -like "*depth_of_discharge") { "fraction_or_factor" } else { "W/m^2" }
-            level = if ($null -eq $baseline) { "SENSITIVITY_ONLY_BASELINE_OPEN" } elseif ($level -eq $baseline) { "DOCUMENTED_BASELINE" } else { "ANALYST_SELECTED_SENSITIVITY" }
+            level = if ($null -eq $baseline) { "SENSITIVITY_ONLY_BASELINE_OPEN" } elseif ($level -eq $baseline) { "DOCUMENTED_BASELINE" } elseif ($parameter -eq "radiator_flux_w_m2" -and $level -eq 1300.0) { "PUBLIC_ATTRIBUTED_ESTIMATE" } else { "ANALYST_SELECTED_SENSITIVITY" }
             baseline_value = if ($null -eq $baseline) { "" } else { $baseline.ToString("G", $culture) }
-            baseline_source = $baselineSource
+            baseline_source = if ($parameter -eq "radiator_flux_w_m2" -and $level -eq 1300.0) { "Public Elon Musk post: https://x.com/elonmusk/status/2117462581371719779; attributed estimate, conditions and area convention unresolved" } else { $baselineSource }
             status = if ($null -eq $baseline) { "OPEN" } else { "SCREENING_ONLY" }
         })
     }
@@ -102,7 +102,7 @@ foreach ($case in $cases) {
     $eclipseHours = $eclipseMin / 60.0
     $auxLoad = if ($inputs.ContainsKey("auxiliary_spacecraft_load")) { [double]$inputs["auxiliary_spacecraft_load"] } else { 0.0 }
     $arrayDensity = if ($inputs.ContainsKey("array_output_density")) { [double]$inputs["array_output_density"] } else { $null }
-    $heatFraction = if ($inputs.ContainsKey("compute_heat_fraction")) { [double]$inputs["compute_heat_fraction"] } else { 1.0 }
+    $heatFraction = if ($inputs.ContainsKey("compute_load_to_heat_fraction")) { [double]$inputs["compute_load_to_heat_fraction"] } else { 1.0 }
 
     foreach ($definition in $sweepDefinitions) {
         $parameter = $definition.parameter
@@ -217,4 +217,3 @@ $resultRows | Format-Table case_id,varied_parameter,varied_value,metric,value,un
 Write-Host "Sensitivity factors written to $factorPath"
 Write-Host "Sensitivity results written to $outputPath"
 Write-Host "All outputs are screening-only; analyst-selected sweep levels are not verified performance."
-

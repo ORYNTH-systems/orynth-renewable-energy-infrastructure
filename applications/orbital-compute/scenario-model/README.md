@@ -50,8 +50,8 @@ For each load case it calculates:
 
 | Load case | Eclipse bus energy | Nominal battery energy | Array output during sunlight | Area, no regular eclipse | Area, beta-zero eclipse |
 |---|---:|---:|---:|---:|---:|
-| 120 kW sustained | 70.572 kWh | 92.858 kWh | 204.108 kW | 757.895 m² | 1,224.647 m² |
-| 150 kW peak stress | 88.215 kWh | 116.072 kWh | 255.135 kW | 947.368 m² | 1,530.808 m² |
+| 120 kW sustained | 70.572 kWh | 92.858 kWh | 204.107 kW | 757.895 m² | 1,224.639 m² |
+| 150 kW peak stress | 88.215 kWh | 116.072 kWh | 255.133 kW | 947.368 m² | 1,530.799 m² |
 
 All results are `SCREENING_ONLY`. The 150 kW case holds peak load through eclipse and recharge; it is a stress case, not a workload prediction. Auxiliary load is set to zero as a lower-bound placeholder. The array-density life point and area convention remain unresolved, including possible double-counting with the EOL factor. These calculations do not establish flight performance or lifecycle abundance. The terrestrial 20 GW objective remains separate from orbital capacity.
 

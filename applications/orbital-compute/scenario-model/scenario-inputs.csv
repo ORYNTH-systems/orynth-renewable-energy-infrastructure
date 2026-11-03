@@ -2,7 +2,7 @@
 "ORC-001-BASELINE","orbit_altitude","700","km","ASSUMPTION","SCREENING_ASSUMPTION","../reference-node.md; ../orbit-budget/power-budget.md","LOW","2026-11-03","Candidate 700 km circular orbit; screening assumption, not a selected flight orbit."
 "ORC-001-BASELINE","orbit_inclination","","deg","OPEN","UNKNOWN","","","",""
 "ORC-001-BASELINE","solar_array_net_power","","kW","OPEN","UNKNOWN","","","",""
-"ORC-001-BASELINE","sunlit_duration","1.0581","h per orbit","ASSUMPTION","SCREENING_ASSUMPTION","../orbit-budget/power-budget.md","LOW","2026-11-03","63.487 min sunlit in the conservative beta-zero cylindrical-shadow screening case."
+"ORC-001-BASELINE","sunlit_duration","1.0581166666666666","h per orbit","ASSUMPTION","SCREENING_ASSUMPTION","../orbit-budget/power-budget.md","LOW","2026-11-03","63.487 min sunlit in the conservative beta-zero cylindrical-shadow screening case."
 "ORC-001-BASELINE","eclipse_duration","0.5881","h per orbit","ASSUMPTION","SCREENING_ASSUMPTION","../orbit-budget/power-budget.md","LOW","2026-11-03","35.286 min eclipse in the conservative beta-zero cylindrical-shadow screening case."
 "ORC-001-BASELINE","array_conversion_efficiency","","fraction","OPEN","UNKNOWN","","","",""
 "ORC-001-BASELINE","storage_round_trip_efficiency","","fraction","OPEN","UNKNOWN","","","",""

@@ -18,7 +18,7 @@
 "array_design_reserve_factor","POWER","1.2","fraction_or_factor","DOCUMENTED_BASELINE","1.2","../orbit-budget/power-budget.md","SCREENING_ONLY"
 "array_design_reserve_factor","POWER","1.3","fraction_or_factor","ANALYST_SELECTED_SENSITIVITY","1.2","../orbit-budget/power-budget.md","SCREENING_ONLY"
 "radiator_flux_w_m2","THERMAL","1200","W/m^2","ANALYST_SELECTED_SENSITIVITY","1400","../orbit-budget/thermal-budget.md; documented screening value, area convention unresolved","SCREENING_ONLY"
-"radiator_flux_w_m2","THERMAL","1300","W/m^2","ANALYST_SELECTED_SENSITIVITY","1400","../orbit-budget/thermal-budget.md; documented screening value, area convention unresolved","SCREENING_ONLY"
+"radiator_flux_w_m2","THERMAL","1300","W/m^2","PUBLIC_ATTRIBUTED_ESTIMATE","1400","Public Elon Musk post: https://x.com/elonmusk/status/2117462581371719779; attributed estimate, conditions and area convention unresolved","SCREENING_ONLY"
 "radiator_flux_w_m2","THERMAL","1400","W/m^2","DOCUMENTED_BASELINE","1400","../orbit-budget/thermal-budget.md; documented screening value, area convention unresolved","SCREENING_ONLY"
 "radiator_flux_w_m2","THERMAL","1600","W/m^2","ANALYST_SELECTED_SENSITIVITY","1400","../orbit-budget/thermal-budget.md; documented screening value, area convention unresolved","SCREENING_ONLY"
 "radiator_derate_factor","THERMAL","0.7","fraction_or_factor","ANALYST_SELECTED_SENSITIVITY","0.8","../orbit-budget/thermal-budget.md; analyst-selected stress factor","SCREENING_ONLY"

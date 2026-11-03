@@ -39,7 +39,7 @@ SpaceX's SEC-filed June 2026 interview transcript gives approximately 1,400 W/m^
 
 ### Stress screen with provisional factors
 
-For a sizing sensitivity only, apply a 20% radiator-performance derate and a 20% design reserve. Effective assumed rejection is then `1,400 Ã— 0.80 = 1,120 W/m^2 per emitting face` and area is multiplied by `1.20`.
+For a sizing sensitivity only, apply a 20% radiator-performance derate and a 20% design reserve. Effective assumed rejection is then `1,400 x 0.80 = 1,120 W/m^2 per emitting face` and area is multiplied by `1.20`.
 
 | Heat to reject | Total emitting area at derated flux with reserve | Double-sided physical panel area under equal-face assumption |
 |---|---:|---:|
@@ -50,13 +50,13 @@ The 20% derate and 20% reserve are analyst-selected screening inputs, not SpaceX
 
 ## 4. Orientation and radiator environment
 
-Candidate A follows the company-described orientation concept: solar collection surfaces face the Sun while radiator surfaces maintain an unobstructed view toward cold space. â€œKnife-edge to the Sunâ€ reduces direct solar interception but does not by itself close the thermal case. The model must include both radiator-face view factors to Earth, reflected solar flux, Earth infrared flux, orientation slew limits, mutual heating from nearby spacecraft or structures, and surface optical-property change over mission life.
+Candidate A follows the company-described orientation concept: solar collection surfaces face the Sun while radiator surfaces maintain an unobstructed view toward cold space. "Knife-edge to the Sun" reduces direct solar interception but does not by itself close the thermal case. The model must include both radiator-face view factors to Earth, reflected solar flux, Earth infrared flux, orientation slew limits, mutual heating from nearby spacecraft or structures, and surface optical-property change over mission life.
 
 The radiator's effective emission depends on its temperature, infrared emissivity, solar absorptivity, exposed area, view factors, and environmental heat sink. Until operating temperature and surface properties are declared, the 1,400 W/m^2 value is only an assumed design point; it cannot be independently reconstructed from the Stefan-Boltzmann relation.
 
 ## 5. Thermal transport and protection
 
-The node needs an explicit path from processor hot spots to radiators: chip/package interface â†’ cold plate or equivalent â†’ loop/pump/heat pipe â†’ radiator root â†’ emitting surface. The design must identify loop redundancy, pump power, leak isolation, fluid freeze/boil limits, flexible-joint losses, micrometeoroid protection, and radiator deployment failure response.
+The node needs an explicit path from processor hot spots to radiators: chip/package interface -> cold plate or equivalent -> loop/pump/heat pipe -> radiator root -> emitting surface. The design must identify loop redundancy, pump power, leak isolation, fluid freeze/boil limits, flexible-joint losses, micrometeoroid protection, and radiator deployment failure response.
 
 The effect gate must throttle or stop compute before any component exceeds its verified temperature envelope. Loss of a pump, flow sensor, temperature sensor, radiator deployment state, or current thermal model must block new high-power workload attempts.
 
