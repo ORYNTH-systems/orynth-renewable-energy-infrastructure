@@ -83,3 +83,11 @@ All outputs are `SCREENING_ONLY`. These are compute-only heat loads. Auxiliary h
 `scale-fleet.ps1` multiplies the 120 kW sustained single-node screening outputs by the illustrative node counts in `fleet-scaling-cases.csv`. It writes `fleet-scaling-results.csv`.
 
 This is linear arithmetic only. It assumes each node has the same screening performance and does not model shared infrastructure, fleet interactions, deployment cadence, launch capacity, replacement, communications, service demand, lifecycle inputs, or operational availability. The 20 GW terrestrial objective is not an orbital target. No annual orbital deployment ambition is treated as verified capacity.
+
+## Reproducing the screening run
+
+From the repository root, run:
+
+`.\applications\orbital-compute\scenario-model\run-screening.ps1`
+
+The entry point regenerates power, thermal, abundance-indicator, and fleet-scaling CSV outputs from the scenario inputs. Outputs remain screening estimates; missing lifecycle and service measurements remain `OPEN`.
