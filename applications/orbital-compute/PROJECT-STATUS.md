@@ -39,3 +39,21 @@ These results depend on assumptions recorded in the model. Auxiliary load is cur
 ## Technical review request
 
 Please review the assumptions and identify the first constraints or missing evidence that would invalidate or materially change the model.
+
+## Thermal feasibility challenge and radiator flux discrepancy
+
+A central counterhypothesis is that orbital heat rejection may be a limiting constraint, not an automatic advantage. Vacuum suppresses convection and gas conduction; it does not stop thermal radiation. Heat must move from the compute hardware to radiator surfaces and then radiate away. Radiative performance depends on radiator temperature, infrared emissivity, view to cold space, absorbed solar and Earth flux, surface degradation, and obstruction by the spacecraft or nearby structures.
+
+NASA's spacecraft thermal-control overview describes the balance among generated, stored, absorbed, and radiated heat, including solar, albedo, planetary infrared, view factors, emissivity, and radiator temperature: https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/
+
+Two radiator flux figures remain unresolved and must not be averaged or treated as interchangeable:
+
+| Figure | Current provenance | Status |
+|---|---|---|
+| 1,300 W/m² | Value in the cited Elon Musk post: https://x.com/elonmusk/status/2117462581371719779 | Company-stated screening claim; model area convention and operating conditions not established |
+| 1,400 W/m² | Existing `orbit-budget/thermal-budget.md` reference to a prior draft transcript | Provenance, date, and whether the figure is per emitting face or per physical panel footprint remain unresolved |
+
+The current thermal area screen uses 1,400 W/m² and retains two area interpretations. The sensitivity sweep now includes separate 1,200, 1,300, 1,400, and 1,600 W/m² levels. The 1,300 W/m² level reflects the cited post, but its conditions and area convention remain unverified.
+
+The model does not yet derive radiator flux from radiator temperature and emissivity or close Earth/Sun heat loads, orbit-dependent view factors, radiator mass, or heat-transport limits. It therefore does not establish that cooling is easier in space or that the concept is thermally feasible. The skeptical claim that orbital data centers will never happen is also not established by this screening model.
+

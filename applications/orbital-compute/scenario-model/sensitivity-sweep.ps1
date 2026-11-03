@@ -46,7 +46,7 @@ $sweepDefinitions = @(
     @{ parameter="battery_depth_of_discharge"; values=@(0.70,0.80,0.90); domain="POWER" }
     @{ parameter="array_eol_output_factor"; values=@(0.70,0.80,0.90); domain="POWER" }
     @{ parameter="array_design_reserve_factor"; values=@(1.10,1.20,1.30); domain="POWER" }
-    @{ parameter="radiator_flux_w_m2"; values=@(1200.0,1400.0,1600.0); domain="THERMAL" }
+    @{ parameter="radiator_flux_w_m2"; values=@(1200.0,1300.0,1400.0,1600.0); domain="THERMAL" }
     @{ parameter="radiator_derate_factor"; values=@(0.70,0.80,0.90); domain="THERMAL" }
     @{ parameter="radiator_reserve_factor"; values=@(1.10,1.20,1.30); domain="THERMAL" }
 )
@@ -217,3 +217,4 @@ $resultRows | Format-Table case_id,varied_parameter,varied_value,metric,value,un
 Write-Host "Sensitivity factors written to $factorPath"
 Write-Host "Sensitivity results written to $outputPath"
 Write-Host "All outputs are screening-only; analyst-selected sweep levels are not verified performance."
+

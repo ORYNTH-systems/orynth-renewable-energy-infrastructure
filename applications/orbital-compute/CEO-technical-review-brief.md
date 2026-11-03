@@ -34,3 +34,12 @@ Lifetime useful service, lifecycle energy by source, and material reuse or recov
 ## Request
 
 **Please technically review the assumptions and identify the first constraints or missing evidence that would invalidate or materially change this model.**
+
+## Thermal feasibility challenge
+
+A material counterhypothesis is that orbital heat rejection could be a limiting constraint. Vacuum removes convection and reduces gas conduction, but it does not block thermal radiation. The spacecraft must transport compute heat to radiators that can reject it under actual temperature, emissivity, orientation, view-factor, and absorbed-heat conditions. NASA's thermal-control overview describes these balance terms: https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/
+
+The radiator flux basis is unresolved. The current thermal screen uses 1,400 W/m², traced in the thermal budget to a prior draft transcript, with the emitting-face versus physical-panel area convention still open. A separate post states 1,300 W/m²: https://x.com/elonmusk/status/2117462581371719779. Its conditions and area convention have not been established. The sensitivity sweep now includes 1,300 W/m² as a distinct level alongside 1,200, 1,400, and 1,600 W/m². The 1,300 W/m² level reflects the cited post; its conditions and area convention remain unverified.
+
+Accordingly, this brief does not assume that cooling is easier in space and does not claim that orbital compute is thermally feasible. The radiator model still needs temperature- and emissivity-based rejection, orbit-dependent Earth and solar inputs, area convention, mass, and thermal-transport evidence. The broader claim that such systems will never be built is outside what this screening package can determine.
+
