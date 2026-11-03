@@ -75,3 +75,7 @@ See [`operating-envelope.md`](operating-envelope.md) for the proposed admission,
 ## Abundance measurement contract
 
 See [`abundance/measurement-contract.md`](abundance/measurement-contract.md) for the unit, boundary, evidence, and calculation rules for the 14 proposed abundance indicators.
+
+## Engineering validation package
+
+See [engineering-validation-package.md](engineering-validation-package.md) for the proposed evidence request matrix and closure criteria for ORC-CL-001 through ORC-CL-013. The package identifies review evidence needed from orbital, electrical, solar-array, storage, thermal, compute, communications, lifecycle, launch, manufacturing, and systems engineering. All entries remain requests; they do not represent engineering approval.
