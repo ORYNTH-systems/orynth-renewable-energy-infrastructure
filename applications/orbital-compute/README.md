@@ -63,3 +63,7 @@ See `orbit-budget/README.md` for candidate-orbit power and thermal screening bud
 ## Abundance measurement layer
 
 See `abundance/README.md` for physical energy, service, reserve, recovery, and lifecycle-burden indicators.
+
+## Engineering closure register
+
+See [`engineering-closure-register.csv`](engineering-closure-register.csv) for the open evidence and validation items that block closing the ORC-001 screening model.
