@@ -95,3 +95,11 @@ The entry point regenerates power, thermal, abundance-indicator, and fleet-scali
 ## Coupled orbit-cycle model
 
 See [`orbit-cycle-model.md`](orbit-cycle-model.md) and [`orbit-cycle-cases.csv`](orbit-cycle-cases.csv) for the planned time-step integration of orbit timing, array power, battery state, compute load, and heat rejection.
+
+## Assumption sensitivity sweep
+
+Run `.\sensitivity-sweep.ps1 -ScenarioId "ORC-001-BASELINE"` to regenerate `sensitivity-factor-cases.csv` and `sensitivity-results.csv`.
+
+The sweep varies one factor at a time for both the 120 kW sustained and 150 kW peak-stress cases. It covers bus, battery, and depth-of-discharge efficiencies; array end-of-life output and reserve factors; and radiator flux, derate, and reserve assumptions. The factor file records each sweep level and its baseline source or `OPEN` status.
+
+Results are screening-only. Sweep levels are analyst-selected sensitivities, not flight-performance claims. The radiator results assume equal two-face emission; the flux convention, environmental heat, and auxiliary thermal load remain unresolved. The sweep does not combine multiple changed factors into a worst-case scenario.
