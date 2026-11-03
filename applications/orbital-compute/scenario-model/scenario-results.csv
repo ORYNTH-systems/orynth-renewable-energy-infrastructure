@@ -1,0 +1,6 @@
+﻿"scenario_id","indicator","value","unit","status","note"
+"ORC-001-BASELINE","Service fulfillment","","fraction","OPEN","Required inputs are missing or still OPEN."
+"ORC-001-BASELINE","Reserve fraction","","fraction","OPEN","Required inputs are missing or still OPEN."
+"ORC-001-BASELINE","Lifecycle energy intensity","","kWh lifecycle / kWh compute","OPEN","Required inputs are missing or still OPEN."
+"ORC-001-BASELINE","Material recovery fraction","","fraction","OPEN","Required inputs are missing or still OPEN."
+"ORC-001-BASELINE","Unrecovered hardware mass","","kg","OPEN","Retired and recovered mass inputs are required."
