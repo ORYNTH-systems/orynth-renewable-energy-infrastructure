@@ -54,3 +54,26 @@ For each load case it calculates:
 | 150 kW peak stress | 88.215 kWh | 116.072 kWh | 255.135 kW | 947.368 m² | 1,530.808 m² |
 
 All results are `SCREENING_ONLY`. The 150 kW case holds peak load through eclipse and recharge; it is a stress case, not a workload prediction. Auxiliary load is set to zero as a lower-bound placeholder. The array-density life point and area convention remain unresolved, including possible double-counting with the EOL factor. These calculations do not establish flight performance or lifecycle abundance. The terrestrial 20 GW objective remains separate from orbital capacity.
+
+## Thermal-budget screening calculator
+
+`screen-thermal-budget.ps1` reads the scenario inputs and writes `thermal-screening-results.csv`.
+
+The compute-only heat load is calculated as:
+
+`Q = compute electrical power × compute-load-to-heat fraction`
+
+Nominal emitting area is `Q ÷ radiator reference flux`. For the per-emitting-face interpretation, the equal-face physical panel footprint is emitting area divided by two. If the quoted flux is already per physical panel footprint, the footprint is not halved.
+
+The stress case applies the provisional performance factor and reserve:
+
+`stress emitting area = [Q ÷ (reference flux × performance factor)] × reserve factor`
+
+### Current screening outputs
+
+| Load case | Nominal emitting area | Nominal footprint, equal two-face | Stress emitting area | Stress footprint, equal two-face | Stress footprint, flux per physical panel area |
+|---|---:|---:|---:|---:|---:|
+| 120 kW sustained | 85.714 m² | 42.857 m² | 128.571 m² | 64.286 m² | 128.571 m² |
+| 150 kW peak | 107.143 m² | 53.571 m² | 160.714 m² | 80.357 m² | 160.714 m² |
+
+All outputs are `SCREENING_ONLY`. These are compute-only heat loads. Auxiliary heat, absorbed solar and Earth flux, operating temperature, emissivity, absorptivity, radiator view factors, and thermal transport losses remain open. The radiator flux area convention is unresolved, and the 20% derate and 20% reserve are analyst assumptions. The results do not establish a flight design.
