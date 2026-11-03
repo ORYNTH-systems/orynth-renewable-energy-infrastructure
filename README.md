@@ -2,11 +2,20 @@
 
 **ORYNTH Renewable Energy Infrastructure**
 
-Repository status: **PRIVATE / PRE-CANONICAL**
+Repository visibility: **PUBLIC**
+ORC-001 status: **PROPOSED / SCREENING ONLY**
+
+## Orbital Solar Compute (ORC-001)
+
+This proposed application screens orbital solar-powered compute assumptions. It is not a validated spacecraft design or deployment-feasibility claim. The terrestrial 20 GW objective is separate from orbital capacity.
+
+- [Project status and review guide](applications/orbital-compute/PROJECT-STATUS.md)
+- [Technical review brief](applications/orbital-compute/CEO-technical-review-brief.md)
+- [ORC-001 application profile](applications/orbital-compute/README.md)
 
 EMAH / AHME is an ORYNTH domain architecture for consequential renewable-energy state transitions across generation, qualification, storage, reservation, transfer, execution, effect, recovery, reintegration, and regenerative continuity.
 
-The architecture is being developed repository-first. Technical papers, formal claims, reference implementations, proof suites, and public release artifacts are not authorized until the underlying architecture reaches an explicit freeze state.
+Architecture and application artifacts are developed repository-first. Public visibility does not establish canonical admission or engineering validation; each artifact remains subject to its stated review and admission status.
 
 ## Current Architectural State
 
@@ -65,6 +74,5 @@ ORYNTH Systems
 
 | Item | Status |
 | --- | --- |
-| Architecture Freeze | FROZEN |
-
+| Underlying EMAH architecture baseline | FROZEN |\n\nThis freeze status applies to the EMAH architecture baseline; ORC-001 remains a proposed application profile and has no flight qualification.
 

@@ -12,7 +12,7 @@ ORC-001 is an organized screening effort for an orbital solar-powered compute no
 - one-factor sensitivity sweeps for documented and analyst-selected assumptions;
 - an engineering evidence request matrix covering 13 open closure areas;
 - lifetime ledgers for useful compute service, lifecycle energy, and material flows;
-- a private-draft technical review brief.
+- a public technical review brief.
 
 ## What it does not establish
 
@@ -50,8 +50,8 @@ Two radiator flux figures remain unresolved and must not be averaged or treated 
 
 | Figure | Current provenance | Status |
 |---|---|---|
-| 1,300 W/m² | Value in the cited Elon Musk post: https://x.com/elonmusk/status/2117462581371719779 | Company-stated screening claim; model area convention and operating conditions not established |
-| 1,400 W/m² | Existing `orbit-budget/thermal-budget.md` reference to a prior draft transcript | Provenance, date, and whether the figure is per emitting face or per physical panel footprint remain unresolved |
+| 1,300 W/m² | Public post by Elon Musk: https://x.com/elonmusk/status/2117462581371719779 | Attributed public estimate; not independently verified or established here as a formal SpaceX engineering specification; operating conditions and area convention remain open |
+| 1,400 W/m² | SpaceX SEC-filed June 2026 interview transcript: https://www.sec.gov/Archives/edgar/data/1181412/000162828026041761/fwp_cfointerview.htm | Company-stated draft-concept input; per-emitting-face versus per-panel-footprint convention and operating conditions remain unresolved; not independently validated |
 
 The current thermal area screen uses 1,400 W/m² and retains two area interpretations. The sensitivity sweep now includes separate 1,200, 1,300, 1,400, and 1,600 W/m² levels. The 1,300 W/m² level reflects the cited post, but its conditions and area convention remain unverified.
 

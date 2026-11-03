@@ -1,7 +1,7 @@
-# ORC-001 Thermal Budget — Candidate A
+﻿# ORC-001 Thermal Budget - Candidate A
 
 **Status:** SCREENING MODEL  
-**Orbit candidate:** 700 km circular dawn–dusk sun-synchronous  
+**Orbit candidate:** 700 km circular dawn-dusk sun-synchronous
 **Compute cases:** 120 kW sustained / 150 kW peak, company-stated comparison inputs
 
 ## 1. Governing balance
@@ -25,38 +25,38 @@ Thus, 120 kW and 150 kW are compute-only screen points, not closed total spacecr
 
 ## 3. Radiator-area conventions
 
-SpaceX's draft transcript gives approximately 1,400 W/m² for radiators and says the radiators are double-sided. Until the area convention is confirmed, keep both interpretations:
+SpaceX's SEC-filed June 2026 interview transcript gives approximately 1,400 W/m^2 and describes double-sided radiators: https://www.sec.gov/Archives/edgar/data/1181412/000162828026041761/fwp_cfointerview.htm. A separate public Elon Musk post states approximately 1,300 W/m^2: https://x.com/elonmusk/status/2117462581371719779. Track these as distinct attributed screening references, not interchangeable or independently validated design values. Until the area convention is confirmed, keep both interpretations:
 
-- If 1,400 W/m² is **per emitting face**, the total emitting surface for heat `Q` is `Q / 1,400`. For a panel with two equally effective emitting faces, the physical panel footprint is half that emitting-surface area.
-- If 1,400 W/m² is already **per physical double-sided panel footprint**, do not halve the area.
+- If 1,400 W/m^2 is **per emitting face**, the total emitting surface for heat `Q` is `Q / 1,400`. For a panel with two equally effective emitting faces, the physical panel footprint is half that emitting-surface area.
+- If 1,400 W/m^2 is already **per physical double-sided panel footprint**, do not halve the area.
 
 ### Compute-only nominal screen
 
-| Heat to reject | Total emitting area at 1,400 W/m² per face | Double-sided physical panel area under equal-face assumption |
+| Heat to reject | Total emitting area at 1,400 W/m^2 per face | Double-sided physical panel area under equal-face assumption |
 |---|---:|---:|
-| 120 kW | 85.7 m² | **42.9 m²** |
-| 150 kW | 107.1 m² | **53.6 m²** |
+| 120 kW | 85.7 m^2 | **42.9 m^2** |
+| 150 kW | 107.1 m^2 | **53.6 m^2** |
 
 ### Stress screen with provisional factors
 
-For a sizing sensitivity only, apply a 20% radiator-performance derate and a 20% design reserve. Effective assumed rejection is then `1,400 × 0.80 = 1,120 W/m² per emitting face` and area is multiplied by `1.20`.
+For a sizing sensitivity only, apply a 20% radiator-performance derate and a 20% design reserve. Effective assumed rejection is then `1,400 Ã— 0.80 = 1,120 W/m^2 per emitting face` and area is multiplied by `1.20`.
 
 | Heat to reject | Total emitting area at derated flux with reserve | Double-sided physical panel area under equal-face assumption |
 |---|---:|---:|
-| 120 kW | 128.6 m² | **64.3 m²** |
-| 150 kW | 160.7 m² | **80.4 m²** |
+| 120 kW | 128.6 m^2 | **64.3 m^2** |
+| 150 kW | 160.7 m^2 | **80.4 m^2** |
 
-The 20% derate and 20% reserve are analyst-selected screening inputs, not SpaceX or NASA requirements. Additional auxiliary and environmental loads increase the required radiator capacity. If SpaceX's 1,400 W/m² is defined per physical footprint, the corresponding physical areas are twice the double-sided figures above.
+The 20% derate and 20% reserve are analyst-selected screening inputs, not SpaceX or NASA requirements. Additional auxiliary and environmental loads increase the required radiator capacity. If SpaceX's 1,400 W/m^2 is defined per physical footprint, the corresponding physical areas are twice the double-sided figures above.
 
 ## 4. Orientation and radiator environment
 
-Candidate A follows the company-described orientation concept: solar collection surfaces face the Sun while radiator surfaces maintain an unobstructed view toward cold space. “Knife-edge to the Sun” reduces direct solar interception but does not by itself close the thermal case. The model must include both radiator-face view factors to Earth, reflected solar flux, Earth infrared flux, orientation slew limits, mutual heating from nearby spacecraft or structures, and surface optical-property change over mission life.
+Candidate A follows the company-described orientation concept: solar collection surfaces face the Sun while radiator surfaces maintain an unobstructed view toward cold space. â€œKnife-edge to the Sunâ€ reduces direct solar interception but does not by itself close the thermal case. The model must include both radiator-face view factors to Earth, reflected solar flux, Earth infrared flux, orientation slew limits, mutual heating from nearby spacecraft or structures, and surface optical-property change over mission life.
 
-The radiator's effective emission depends on its temperature, infrared emissivity, solar absorptivity, exposed area, view factors, and environmental heat sink. Until operating temperature and surface properties are declared, the 1,400 W/m² value is only an assumed design point; it cannot be independently reconstructed from the Stefan–Boltzmann relation.
+The radiator's effective emission depends on its temperature, infrared emissivity, solar absorptivity, exposed area, view factors, and environmental heat sink. Until operating temperature and surface properties are declared, the 1,400 W/m^2 value is only an assumed design point; it cannot be independently reconstructed from the Stefan-Boltzmann relation.
 
 ## 5. Thermal transport and protection
 
-The node needs an explicit path from processor hot spots to radiators: chip/package interface → cold plate or equivalent → loop/pump/heat pipe → radiator root → emitting surface. The design must identify loop redundancy, pump power, leak isolation, fluid freeze/boil limits, flexible-joint losses, micrometeoroid protection, and radiator deployment failure response.
+The node needs an explicit path from processor hot spots to radiators: chip/package interface â†’ cold plate or equivalent â†’ loop/pump/heat pipe â†’ radiator root â†’ emitting surface. The design must identify loop redundancy, pump power, leak isolation, fluid freeze/boil limits, flexible-joint losses, micrometeoroid protection, and radiator deployment failure response.
 
 The effect gate must throttle or stop compute before any component exceeds its verified temperature envelope. Loss of a pump, flow sensor, temperature sensor, radiator deployment state, or current thermal model must block new high-power workload attempts.
 

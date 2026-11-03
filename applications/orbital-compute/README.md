@@ -1,8 +1,8 @@
-# EMAH Application Profile: Orbital Solar Compute
+﻿# EMAH Application Profile: Orbital Solar Compute
 
-**Status:** PROPOSED — engineering concept package; not a canonical EMAH amendment  
+**Status:** PROPOSED - engineering concept package; not a canonical EMAH amendment
 **Version:** 0.2.0  
-**Parent architecture:** EMAH / AHME — ORYNTH Renewable Energy Infrastructure
+**Parent architecture:** EMAH / AHME - ORYNTH Renewable Energy Infrastructure
 
 ## Purpose
 
@@ -40,13 +40,13 @@ Excluded from this profile's current claims:
 
 ## Core files
 
-- `system-boundary.md` — physical and governance boundary.
-- `target-register.md` — sourced SpaceX figures and scope distinctions.
-- `energy-and-thermal-model.md` — required power and heat accounting.
-- `reference-node.md` — ORC-001 concept and first-order sizing arithmetic.
-- `requirements.md` — preliminary, testable requirements.
-- `verification-plan.md` — model, ground, thermal-vacuum, and flight gates.
-- `obligations.md` — open proof and validation obligations.
+- `system-boundary.md` - physical and governance boundary.
+- `target-register.md` - sourced SpaceX figures and scope distinctions.
+- `energy-and-thermal-model.md` - required power and heat accounting.
+- `reference-node.md` - ORC-001 concept and first-order sizing arithmetic.
+- `requirements.md` - preliminary, testable requirements.
+- `verification-plan.md` - model, ground, thermal-vacuum, and flight gates.
+- `obligations.md` - open proof and validation obligations.
 
 ## Admission rule
 
@@ -54,7 +54,20 @@ This package remains PROPOSED until its boundary, target records, obligations, a
 
 ## Current build state
 
-The first engineering concept is now defined as ORC-001. The public SpaceX AI1 values are comparison inputs only. Interpreting the stated 250 W/m² as effective array output gives a first-order 600 m² for 150 kW. At the stated 1,400 W/m² radiator heat-rejection assumption, 120–150 kW implies about 86–107 m². These are conditional arithmetic screens from company-stated assumptions; auxiliary loads, orbital environment, orientation, degradation, margins, and thermal test correlation remain open.
+ORC-001 has screening cases for 120 kW sustained compute and a 150 kW peak-stress load. The candidate 700 km beta-zero timing case uses a 98.773-minute period with 63.487 minutes sunlit and 35.286 minutes in eclipse. These are screening inputs, not a mission-selected orbit.
+
+| Case | Array output during sunlight with eclipse recharge | Beta-zero screening array area | Nominal battery energy |
+|---|---:|---:|---:|
+| 120 kW sustained | about 204.1 kW | about 1,225 m² | about 92.9 kWh |
+| 150 kW peak-stress | about 255.1 kW | about 1,531 m² | about 116.1 kWh |
+
+These power results use recorded screening assumptions, including zero auxiliary load as a lower-bound placeholder. The orbit-cycle simulation remains `OPEN` pending actual array bus power, battery power limits and reserve, initial state of charge, and radiator rejection capacity.
+
+The thermal screen treats compute load as heat. At 1,400 W/m² with a provisional 20% derate and 20% reserve, the equal-two-face physical footprint is about 64.3 m² for 120 kW and 80.4 m² for 150 kW. If the flux is already defined per physical panel footprint, those areas double. The 1,300 W/m² sensitivity level gives about 69.2 m² and 86.5 m² under the same illustrative factors and equal-two-face assumption. These are screening calculations, not a validated radiator design.
+
+The 1,300 W/m² figure is attributed to a public Elon Musk post and is not established here as a formal SpaceX engineering specification. The separate 1,400 W/m² figure is from SpaceX's SEC-filed June 2026 interview transcript. The emitting-face versus panel-footprint convention remains unresolved.
+
+The simpler quotients in `reference-node.md`—600 m² of array for 150 kW at 250 W/m², and 86–107 m² of radiator at 1,400 W/m²—are idealized direct divisions. They omit eclipse recharge, margins, environmental heat, and unresolved area conventions; they are not the current system-level sizing results.
 
 ## Orbit budget
 
@@ -86,7 +99,7 @@ See [abundance/lifetime-accounting.md](abundance/lifetime-accounting.md) and its
 
 ## CEO technical review brief
 
-See [CEO-technical-review-brief.md](CEO-technical-review-brief.md) for the private screening summary and the requested technical review of assumptions and first material constraints.
+See [CEO-technical-review-brief.md](CEO-technical-review-brief.md) for the public screening summary and the requested technical review of assumptions and first material constraints.
 
 ## Project status and review guide
 
